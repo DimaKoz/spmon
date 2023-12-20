@@ -16,7 +16,7 @@ temp*
 *.out
 
 # Binaries
-cmd/monitor/agent
+cmd/monitor/monitor
 
 # Dependency directories (remove the comment below to include it)
 vendor/
