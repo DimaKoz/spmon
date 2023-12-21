@@ -14,14 +14,14 @@ clean:
 
 .PHONY: lnt
 lnt:
-	# excluded 'paralleltest' by the reason - not now
-	# excluded 'wsl' by the reason - 'wsl' and 'gofumpt' fights between each other
-	# excluded 'gochecknoglobals' by reason - I need global variables sometimes
-	# excluded 'exhaustivestruct' - deprecated
-	# excluded 'depguard' - no need in it
+# excluded 'paralleltest' by the reason - not now
+# excluded 'wsl' by the reason - 'wsl' and 'gofumpt' fights between each other
+# excluded 'gochecknoglobals' by reason - I need global variables sometimes
+# excluded 'exhaustivestruct' - deprecated
+# excluded 'depguard' - no need in it
 	tput bold setaf 1;golangci-lint run --version;tput sgr0
-	golangci-lint run -v --enable-all --disable gochecknoglobals --disable paralleltest --disable exhaustivestruct --disable depguard --disable wsl
-	#golangci-lint run -v
+# golangci-lint run -v --enable-all --disable gochecknoglobals --disable paralleltest --disable exhaustivestruct --disable depguard --disable wsl
+	golangci-lint run -v
 
 .PHONY: fmt
 fmt:
