@@ -1,0 +1,394 @@
+{
+  "updatedAt": 1703246443,
+  "updatedAtIso8601": "2023-12-22T15:00:43+03:00",
+  "updateUrlQueryArgs": {
+    "edition": "intl-en",
+    "family": "sputnik",
+    "platform": "android",
+    "version": "3.0.11",
+    "since": "1703246443"
+  },
+  "updateUrl": "\/handshake?edition=intl-en&family=sputnik&platform=android&version=3.0.11&since=1703246443",
+  "fullUpdateUrl": "https:\/\/mobileapi.sputniknews.com\/handshake?edition=intl-en&family=sputnik&platform=android&version=3.0.11&since=1703246443",
+  "version": "3.0.0",
+  "issuer": "sputnik_intl_en",
+  "sources": {
+    "articles": "https:\/\/mobileapi.sputniknews.com\/articles",
+    "lists": "https:\/\/mobileapi.sputniknews.com\/lists",
+    "images": "https:\/\/mobileimg.img.sputniknews.com\/image",
+    "search": "https:\/\/mobileapi.sputniknews.com\/articles\/search?issuer=sputnik_intl_en",
+    "reactions": "https:\/\/mobileimg.sputniknews.com\/article\/reactions",
+    "polls": "https:\/\/mobileapi.sputniknews.com\/poll\/votes",
+    "extra": "https:\/\/mobileapi.sputniknews.com\/article\/extra",
+    "feedback": "https:\/\/mobileapi.sputniknews.com\/services\/feedbacks",
+    "podcast-playlist": "https:\/\/mobileapi.sputniknews.com\/podcasts\/playlist",
+    "article-guess": "https:\/\/mobileapi.sputniknews.com\/article\/guess",
+    "chat": "https:\/\/mservices.ria.ru\/chats\/sputnik",
+    "gdpr": {
+      "cookie": "https:\/\/mservices.sputniknews.com\/docs\/get\/iubenda?solution=cookie-policy&public_id=20951458",
+      "privacy": "https:\/\/mservices.sputniknews.com\/docs\/get\/iubenda?solution=privacy-policy&public_id=20951458",
+      "feedback-web": "https:\/\/sputnikglobe.com\/docs\/privacy_policy.html?modal=feedbackprivacy"
+    },
+    "about": "https:\/\/mservices.sputniknews.com\/docs\/get\/article?project=sputnik_inter_en&lang=eng&article_id=1088833429",
+    "chats": "https:\/\/mservices.ria.ru\/chats\/sputnik",
+    "guess": "https:\/\/mobileapi.sputniknews.com\/article\/guess",
+    "radio": "https:\/\/nfw.ria.ru\/flv\/audio.aspx?ID=40881855&type=mp3",
+    "terms": "https:\/\/mservices.sputniknews.com\/docs\/get\/article?project=sputnik_inter_en&lang=eng&article_id=1088837481",
+    "cookie": "https:\/\/mservices.sputniknews.com\/docs\/get\/iubenda?solution=cookie-policy&public_id=20951458",
+    "account": "https:\/\/mservices.sputniknews.com\/account\/sputnik",
+    "privacy": "https:\/\/mservices.sputniknews.com\/docs\/get\/iubenda?solution=privacy-policy&public_id=20951458",
+    "searchLists": "https:\/\/mobileimg.sputniknews.com\/lists\/search",
+    "chat-deprecated": "https:\/\/mobileapi.sputniknews.comchat is deprecated, use chats instead",
+    "commentingRules": "https:\/\/mservices.sputniknews.com\/docs\/get\/article?project=sputnik_inter_en&lang=eng&article_id=1088847293",
+    "privacyFeedbackWeb": "https:\/\/sputnikglobe.com\/docs\/privacy_policy.html?modal=feedbackprivacy",
+    "chatEventBusViaWebSocket": "wss:\/\/cm.sputniknews.com\/chat\/000\/aaaaaaaa\/websocket"
+  },
+  "ad": null,
+  "extra": {
+    "articlesRequestLimit": 15,
+    "gdpr": {
+      "version": "1.0.0"
+    },
+    "issuer": "sputnik_intl_en",
+    "iubenda": {
+      "siteId": "2343018",
+      "publicId": "20951458",
+      "cookiePolicyId": "20951458"
+    },
+    "selfUpdate": {
+      "url": "https:\/\/sputnik-apk.ru\/sputnik.apk",
+      "version": "155"
+    },
+    "subscription": {
+      "prefix": "subscription-"
+    },
+    "feedbackEmail": "feedback@sputniknews.com",
+    "isGdprEnabled": true,
+    "isAutofillable": true,
+    "recommendations": null,
+    "chatWebSocketLang": "eng",
+    "chatWebSocketProject": "sputnik_inter_en",
+    "privacyPolicyVersion": "1.0.0",
+    "colorizeFirstCharacter": true,
+    "chatCanAnonymousReactOnMessage": true
+  },
+  "sections": [
+    {
+      "id": "main",
+      "title": "Home",
+      "feeds": [
+        {
+          "id": "top-stories",
+          "title": "Home",
+          "blocks": [
+            {
+              "id": "_breakingnews-1151350201",
+              "contentType": "articles",
+              "limit": 5,
+              "dataUrlQueryArgs": {
+                "limit": "5",
+                "lists": "_breakingnews",
+                "updatedSince": "-1",
+                "issuer": "sputnik_intl_en"
+              },
+              "style": {
+                "displayType": "cheetah"
+              },
+              "hash": "1151350201",
+              "dataUrlQueryString": "limit=5&lists=_breakingnews&updatedSince=-1&issuer=sputnik_intl_en",
+              "dataUrl": "https:\/\/mobileapi.sputniknews.com\/articles?limit=5&lists=_breakingnews&updatedSince=-1&issuer=sputnik_intl_en"
+            },
+            {
+              "id": "top-stories-294074351",
+              "contentType": "articles",
+              "sortBy": "sortkey",
+              "sortDir": "desc",
+              "dataUrlQueryArgs": {
+                "limit": "100",
+                "lists": "_sys_main2018",
+                "updatedSince": "-1",
+                "issuer": "sputnik_intl_en"
+              },
+              "hash": "294074351",
+              "dataUrlQueryString": "limit=100&lists=_sys_main2018&updatedSince=-1&issuer=sputnik_intl_en",
+              "dataUrl": "https:\/\/mobileapi.sputniknews.com\/articles?limit=100&lists=_sys_main2018&updatedSince=-1&issuer=sputnik_intl_en",
+              "handleMainPageAttrs": true
+            }
+          ]
+        },
+        {
+          "id": "latest",
+          "title": "Home",
+          "blocks": [
+            {
+              "id": "_breakingnews-1151350201",
+              "contentType": "articles",
+              "limit": 5,
+              "dataUrlQueryArgs": {
+                "limit": "5",
+                "lists": "_breakingnews",
+                "updatedSince": "-1",
+                "issuer": "sputnik_intl_en"
+              },
+              "style": {
+                "displayType": "cheetah"
+              },
+              "hash": "1151350201",
+              "dataUrlQueryString": "limit=5&lists=_breakingnews&updatedSince=-1&issuer=sputnik_intl_en",
+              "dataUrl": "https:\/\/mobileapi.sputniknews.com\/articles?limit=5&lists=_breakingnews&updatedSince=-1&issuer=sputnik_intl_en"
+            },
+            {
+              "id": "latest-3055167904",
+              "contentType": "articles",
+              "dataUrlQueryArgs": {
+                "lists": "_feed",
+                "updatedSince": "-1",
+                "issuer": "sputnik_intl_en",
+                "limit": "15"
+              },
+              "hash": "3055167904",
+              "dataUrlQueryString": "lists=_feed&updatedSince=-1&issuer=sputnik_intl_en&limit=15",
+              "dataUrl": "https:\/\/mobileapi.sputniknews.com\/articles?lists=_feed&updatedSince=-1&issuer=sputnik_intl_en&limit=15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "catalog-news",
+      "title": "News",
+      "feeds": [
+        {
+          "id": "archive",
+          "title": "All materials",
+          "blocks": [
+            {
+              "id": "archive-2788266306",
+              "contentType": "articles",
+              "hash": "2788266306",
+              "dataUrlQueryArgs": {
+                "issuer": "sputnik_intl_en",
+                "limit": "15"
+              },
+              "dataUrlQueryString": "issuer=sputnik_intl_en&limit=15",
+              "dataUrl": "https:\/\/mobileapi.sputniknews.com\/articles?issuer=sputnik_intl_en&limit=15"
+            }
+          ]
+        },
+        {
+          "id": "world",
+          "title": "World",
+          "blocks": [
+            {
+              "id": "world-3208900740",
+              "contentType": "articles",
+              "dataUrlQueryArgs": {
+                "lists": "world",
+                "updatedSince": "-1",
+                "issuer": "sputnik_intl_en",
+                "limit": "15"
+              },
+              "hash": "3208900740",
+              "dataUrlQueryString": "lists=world&updatedSince=-1&issuer=sputnik_intl_en&limit=15",
+              "dataUrl": "https:\/\/mobileapi.sputniknews.com\/articles?lists=world&updatedSince=-1&issuer=sputnik_intl_en&limit=15",
+              "externalUrl": "https:\/\/sputnikglobe.com\/world\/"
+            }
+          ],
+          "isWidgetable": true
+        },
+        {
+          "id": "geo_america",
+          "title": "Americas",
+          "blocks": [
+            {
+              "id": "geo_america-1470821307",
+              "contentType": "articles",
+              "dataUrlQueryArgs": {
+                "lists": "geo_America",
+                "updatedSince": "-1",
+                "issuer": "sputnik_intl_en",
+                "limit": "15"
+              },
+              "hash": "1470821307",
+              "dataUrlQueryString": "lists=geo_America&updatedSince=-1&issuer=sputnik_intl_en&limit=15",
+              "dataUrl": "https:\/\/mobileapi.sputniknews.com\/articles?lists=geo_America&updatedSince=-1&issuer=sputnik_intl_en&limit=15",
+              "externalUrl": "https:\/\/sputnikglobe.com\/geo_America\/"
+            }
+          ],
+          "isWidgetable": true
+        },
+        {
+          "id": "russia",
+          "title": "Russia",
+          "blocks": [
+            {
+              "id": "russia-3395877562",
+              "contentType": "articles",
+              "dataUrlQueryArgs": {
+                "lists": "russia",
+                "updatedSince": "-1",
+                "issuer": "sputnik_intl_en",
+                "limit": "15"
+              },
+              "hash": "3395877562",
+              "dataUrlQueryString": "lists=russia&updatedSince=-1&issuer=sputnik_intl_en&limit=15",
+              "dataUrl": "https:\/\/mobileapi.sputniknews.com\/articles?lists=russia&updatedSince=-1&issuer=sputnik_intl_en&limit=15",
+              "externalUrl": "https:\/\/sputnikglobe.com\/russia\/"
+            }
+          ],
+          "isWidgetable": true
+        },
+        {
+          "id": "keyword_economy",
+          "title": "Economy",
+          "blocks": [
+            {
+              "id": "keyword_economy-722069722",
+              "contentType": "articles",
+              "dataUrlQueryArgs": {
+                "lists": "keyword_Economy",
+                "updatedSince": "-1",
+                "issuer": "sputnik_intl_en",
+                "limit": "15"
+              },
+              "hash": "722069722",
+              "dataUrlQueryString": "lists=keyword_Economy&updatedSince=-1&issuer=sputnik_intl_en&limit=15",
+              "dataUrl": "https:\/\/mobileapi.sputniknews.com\/articles?lists=keyword_Economy&updatedSince=-1&issuer=sputnik_intl_en&limit=15",
+              "externalUrl": "https:\/\/sputnikglobe.com\/keyword_Economy\/"
+            }
+          ],
+          "isWidgetable": true
+        },
+        {
+          "id": "keyword_military",
+          "title": "Military",
+          "blocks": [
+            {
+              "id": "keyword_military-4171307828",
+              "contentType": "articles",
+              "dataUrlQueryArgs": {
+                "lists": "keyword_Military",
+                "updatedSince": "-1",
+                "issuer": "sputnik_intl_en",
+                "limit": "15"
+              },
+              "hash": "4171307828",
+              "dataUrlQueryString": "lists=keyword_Military&updatedSince=-1&issuer=sputnik_intl_en&limit=15",
+              "dataUrl": "https:\/\/mobileapi.sputniknews.com\/articles?lists=keyword_Military&updatedSince=-1&issuer=sputnik_intl_en&limit=15",
+              "externalUrl": "https:\/\/sputnikglobe.com\/keyword_Military\/"
+            }
+          ],
+          "isWidgetable": true
+        },
+        {
+          "id": "science",
+          "title": "Science & Tech",
+          "blocks": [
+            {
+              "id": "science-2559593809",
+              "contentType": "articles",
+              "dataUrlQueryArgs": {
+                "lists": "science",
+                "updatedSince": "-1",
+                "issuer": "sputnik_intl_en",
+                "limit": "15"
+              },
+              "hash": "2559593809",
+              "dataUrlQueryString": "lists=science&updatedSince=-1&issuer=sputnik_intl_en&limit=15",
+              "dataUrl": "https:\/\/mobileapi.sputniknews.com\/articles?lists=science&updatedSince=-1&issuer=sputnik_intl_en&limit=15",
+              "externalUrl": "https:\/\/sputnikglobe.com\/science\/"
+            }
+          ],
+          "isWidgetable": true
+        },
+        {
+          "id": "multimedia",
+          "title": "Multimedia",
+          "blocks": [
+            {
+              "id": "multimedia-1178794373",
+              "contentType": "articles",
+              "dataUrlQueryArgs": {
+                "lists": "multimedia",
+                "updatedSince": "-1",
+                "issuer": "sputnik_intl_en",
+                "limit": "15"
+              },
+              "hash": "1178794373",
+              "dataUrlQueryString": "lists=multimedia&updatedSince=-1&issuer=sputnik_intl_en&limit=15",
+              "dataUrl": "https:\/\/mobileapi.sputniknews.com\/articles?lists=multimedia&updatedSince=-1&issuer=sputnik_intl_en&limit=15",
+              "externalUrl": "https:\/\/sputnikglobe.com\/multimedia\/"
+            }
+          ],
+          "isWidgetable": true
+        }
+      ],
+      "catalog": {
+        "displayType": "default"
+      },
+      "isCustomizable": true
+    },
+    {
+      "id": "popular",
+      "title": "Most popular",
+      "feeds": [
+        {
+          "id": "popular",
+          "title": "Most popular",
+          "blocks": [
+            {
+              "id": "_most_viewed-1871317927",
+              "title": "Most read",
+              "contentType": "articles",
+              "sortBy": "views",
+              "sortDir": "desc",
+              "dataUrlQueryArgs": {
+                "lists": "_most_viewed",
+                "updatedSince": "-1",
+                "issuer": "sputnik_intl_en",
+                "limit": "15"
+              },
+              "style": {
+                "displayType": "goose"
+              },
+              "hash": "1871317927",
+              "dataUrlQueryString": "lists=_most_viewed&updatedSince=-1&issuer=sputnik_intl_en&limit=15",
+              "dataUrl": "https:\/\/mobileapi.sputniknews.com\/articles?lists=_most_viewed&updatedSince=-1&issuer=sputnik_intl_en&limit=15"
+            }
+          ]
+        }
+      ],
+      "isCustomizable": true
+    },
+    {
+      "id": "radio",
+      "title": "Radio",
+      "feeds": [
+        {
+          "id": "category_radio",
+          "title": "Radio",
+          "blocks": [
+            {
+              "id": "category_radio-3360680555",
+              "contentType": "articles",
+              "dataUrlQueryArgs": {
+                "lists": "category_radio",
+                "updatedSince": "-1",
+                "issuer": "sputnik_intl_en",
+                "limit": "15"
+              },
+              "style": {
+                "displayType": "tracklist"
+              },
+              "hash": "3360680555",
+              "dataUrlQueryString": "lists=category_radio&updatedSince=-1&issuer=sputnik_intl_en&limit=15",
+              "dataUrl": "https:\/\/mobileapi.sputniknews.com\/articles?lists=category_radio&updatedSince=-1&issuer=sputnik_intl_en&limit=15",
+              "externalUrl": "https:\/\/sputnikglobe.com\/category_radio\/"
+            }
+          ],
+          "isWidgetable": true
+        }
+      ]
+    }
+  ]
+}
