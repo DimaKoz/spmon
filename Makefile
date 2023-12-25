@@ -44,3 +44,11 @@ gofmt:
 .PHONY: fix
 fix: gofmt gci fmt
 
+.PHONY: cover
+cover:
+	rm -f ./cover.html cover.out coverage.txt
+	go test -race -coverprofile cover.out  ./...
+	go tool cover -html=cover.out -o cover.html
+#https://blog.seriesci.com/how-to-measure-code-coverage-in-go/
+	go tool cover -func cover.out | grep total:
+

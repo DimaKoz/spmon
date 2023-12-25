@@ -19,7 +19,7 @@ func TestAddGetHs(t *testing.T) {
 	}
 	expectedTimestamp := 1703246443
 	wDir := internal.GetWD()
-	filePath := fmt.Sprintf("%s/%s", wDir, "testdata/hs/sh_sputnik_intl_en.json")
+	filePath := fmt.Sprintf("%s/%s", wDir, "testdata/hs/hs_sputnik_intl_en.json")
 	file, err := os.ReadFile(filePath)
 	// println("use test file:", filePath, ", ", file)
 	require.NoError(t, err)
