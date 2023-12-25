@@ -1,8 +1,9 @@
 package main
 
 import (
-	"github.com/DimaKoz/spmon/internal/repository"
 	"log"
+
+	"github.com/DimaKoz/spmon/internal/repository"
 )
 
 func main() {
