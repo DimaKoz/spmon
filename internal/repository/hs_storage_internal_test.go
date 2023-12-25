@@ -9,6 +9,7 @@ import (
 	"github.com/DimaKoz/spmon/internal"
 	"github.com/DimaKoz/spmon/internal/model"
 	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 )
 
 func TestAddGetHs(t *testing.T) {
@@ -21,14 +22,12 @@ func TestAddGetHs(t *testing.T) {
 	filePath := fmt.Sprintf("%s/%s", wDir, "testdata/hs/sh_sputnik_intl_en.json")
 	file, err := os.ReadFile(filePath)
 	// println("use test file:", filePath, ", ", file)
-	if !assert.NoError(t, err) {
-		return
-	}
+	require.NoError(t, err)
+
 	var hsTest model.Handshake
 	err = json.Unmarshal(file, &hsTest)
-	if !assert.NoError(t, err) {
-		return
-	}
+	require.NoError(t, err)
+
 	tests := []struct {
 		name string
 		args args
@@ -46,11 +45,11 @@ func TestAddGetHs(t *testing.T) {
 		t.Run(tUnit.name, func(t *testing.T) {
 			AddHs(tUnit.args.key, nil)
 			got, err := GetHs(tUnit.args.key)
-			assert.Error(t, err)
+			require.Error(t, err)
 			assert.Nil(t, got)
 			AddHs(tUnit.args.key, tUnit.args.hs)
 			got, err = GetHs(tUnit.args.key)
-			assert.NoError(t, err)
+			require.NoError(t, err)
 			assert.NotNil(t, got)
 			assert.Equal(t, expectedTimestamp, got.UpdatedAt)
 		})

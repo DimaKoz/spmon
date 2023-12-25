@@ -167,6 +167,7 @@ linters:
     - tenv
     - testableexamples
     - testpackage
+    - testifylint
     - thelper
     - tparallel
     - typecheck
