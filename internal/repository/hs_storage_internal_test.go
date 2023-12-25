@@ -6,10 +6,9 @@ import (
 	"os"
 	"testing"
 
+	"github.com/DimaKoz/spmon/internal"
+	"github.com/DimaKoz/spmon/internal/model"
 	"github.com/stretchr/testify/assert"
-
-	"spmon/internal"
-	"spmon/internal/model"
 )
 
 func TestAddGetHs(t *testing.T) {
@@ -17,6 +16,7 @@ func TestAddGetHs(t *testing.T) {
 		key string
 		hs  *model.Handshake
 	}
+	expectedTimestamp := 1703246443
 	wDir := internal.GetWD()
 	filePath := fmt.Sprintf("%s/%s", wDir, "testdata/hs/sh_sputnik_intl_en.json")
 	file, err := os.ReadFile(filePath)
@@ -42,17 +42,17 @@ func TestAddGetHs(t *testing.T) {
 		},
 	}
 	for _, tCase := range tests {
-		tt := tCase
-		t.Run(tt.name, func(t *testing.T) {
-			AddHs(tt.args.key, nil)
-			got, err := GetHs(tt.args.key)
+		tUnit := tCase
+		t.Run(tUnit.name, func(t *testing.T) {
+			AddHs(tUnit.args.key, nil)
+			got, err := GetHs(tUnit.args.key)
 			assert.Error(t, err)
 			assert.Nil(t, got)
-			AddHs(tt.args.key, tt.args.hs)
-			got, err = GetHs(tt.args.key)
+			AddHs(tUnit.args.key, tUnit.args.hs)
+			got, err = GetHs(tUnit.args.key)
 			assert.NoError(t, err)
 			assert.NotNil(t, got)
-			assert.Equal(t, 1703246443, got.UpdatedAt)
+			assert.Equal(t, expectedTimestamp, got.UpdatedAt)
 		})
 	}
 }

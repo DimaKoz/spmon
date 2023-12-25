@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"spmon/internal/model"
+	"github.com/DimaKoz/spmon/internal/model"
 )
 
 var (
@@ -29,22 +29,19 @@ func repositoryError(err error, msg string) error {
 }
 
 // AddHs adds model.Handshake to 'hsStorage' storage.
-func AddHs(key string, hs *model.Handshake) {
+func AddHs(key string, handshake *model.Handshake) {
 	hsStorageSync.Lock()
 	defer hsStorageSync.Unlock()
-	if hs == nil {
+	if handshake == nil {
 		delete(hsStorage.storage, key)
+
 		return
 	}
-	addHsImpl(key, *hs)
-
-	return
+	addHsImpl(key, *handshake)
 }
 
 func addHsImpl(key string, hs model.Handshake) {
 	hsStorage.storage[key] = hs
-
-	return
 }
 
 // GetHs returns a *model.Handshake and nil error if found or nil and error.

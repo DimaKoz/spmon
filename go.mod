@@ -1,4 +1,4 @@
-module spmon
+module github.com/DimaKoz/spmon
 
 go 1.21.4
 
