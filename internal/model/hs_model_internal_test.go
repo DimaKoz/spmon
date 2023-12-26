@@ -72,3 +72,19 @@ func TestHandshakeGetArticleBlocks(t *testing.T) {
 		})
 	}
 }
+
+func TestHandshakeGetArticleBlocksNilHandshake(t *testing.T) {
+	var hsTest *Handshake
+
+	got := hsTest.GetArticleBlocks()
+
+	assert.Empty(t, got)
+}
+
+func TestHandshakeGetArticleBlocksNilSection(t *testing.T) {
+	var section *Section
+
+	got := section.GetBlocks()
+
+	assert.Empty(t, got)
+}
