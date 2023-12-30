@@ -28,4 +28,5 @@ type Cover struct {
 	SourceURL   string `json:"sourceUrl"`
 	DownloadURL string `json:"downloadUrl"`
 	Poster      Poster `json:"poster"`
+	ArticleID   string
 }
