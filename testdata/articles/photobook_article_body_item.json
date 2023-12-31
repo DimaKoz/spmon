@@ -1,0 +1,968 @@
+{
+  "id": "1919235181",
+  "issuer": "rian",
+  "type": "text",
+  "priority": 3,
+  "title": "ВС России нанесли удары возмездия в ответ на обстрел Белгорода",
+  "subtitle": "Минобороны: ВС РФ поразили центры принятия решений и объекты ВСУ в Харькове",
+  "url": "https://ria.ru/20231231/belgorod-1919235181.html",
+  "cover": {
+    "id": "1919235675",
+    "etag": "1179231856",
+    "hash": "168883299",
+    "size": 324731,
+    "type": "image",
+    "extra": {
+      "averageColor": "3f2d26"
+    },
+    "hires": {
+      "width": 3078,
+      "height": 2048,
+      "mimetype": "image/jpeg",
+      "averageColor": "3f2d26"
+    },
+    "title": "Пожарные ликвидируют возгорание в Харькове",
+    "copyright": "AFP 2023 / SERGEY BOBOK",
+    "description": "Пожарные ликвидируют возгорание в Харькове",
+    "issuer": "rian",
+    "sourceUrl": "https://mobileimg.img.ria.ru/image?etag=321011811&h=2048&id=1919235675&issuer=rian&s=fit&w=2048&_sig=7T_YVdv9r-midYsuBanqrg",
+    "downloadUrl": "https://mobileimg.img.ria.ru/image?etag=321011811&h=996&id=1919235675&issuer=rian&s=fit&w=996&_sig=P8ke-62039XjKXjXx0Qi1A",
+    "poster": {
+      "url": "https://mobileimg.img.ria.ru/image?etag=321011811&id=1919235675&issuer=rian&s=fit&w=640&_sig=L55w5WWM4cV_PcddNYDOeg",
+      "width": 640,
+      "height": 424,
+      "averageColor": "3f2d26"
+    }
+  },
+  "body": [
+    {
+      "type": "headline",
+      "headline": {
+        "title": "ВС России нанесли удары возмездия в ответ на обстрел Белгорода",
+        "publishedAt": 1704012960,
+        "modifiedAt": 1704021315,
+        "cover": {
+          "id": "1919235675",
+          "etag": "1179231856",
+          "hash": "168883299",
+          "size": 324731,
+          "type": "image",
+          "extra": {
+            "averageColor": "3f2d26"
+          },
+          "hires": {
+            "width": 3078,
+            "height": 2048,
+            "mimetype": "image/jpeg",
+            "averageColor": "3f2d26"
+          },
+          "title": "Пожарные ликвидируют возгорание в Харькове",
+          "copyright": "AFP 2023 / SERGEY BOBOK",
+          "description": "Пожарные ликвидируют возгорание в Харькове",
+          "issuer": "rian",
+          "sourceUrl": "https://mobileimg.img.ria.ru/image?etag=321011811&h=2048&id=1919235675&issuer=rian&s=fit&w=2048&_sig=7T_YVdv9r-midYsuBanqrg",
+          "downloadUrl": "https://mobileimg.img.ria.ru/image?etag=321011811&h=996&id=1919235675&issuer=rian&s=fit&w=996&_sig=P8ke-62039XjKXjXx0Qi1A",
+          "poster": {
+            "url": "https://mobileimg.img.ria.ru/image?etag=321011811&h=640&id=1919235675&issuer=rian&s=fill-center&w=640&_sig=0hykK9PiZN4E73_WpGMd2g",
+            "width": 640,
+            "height": 640,
+            "averageColor": "3f2d26"
+          }
+        }
+      }
+    },
+    {
+      "type": "publicationDateTime",
+      "publicationDateTime": {
+        "unix": 1704012960
+      }
+    },
+    {
+      "type": "modificationDateTime",
+      "modificationDateTime": {
+        "unix": 1704021315
+      }
+    },
+    {
+      "html": "<p><strong>МОСКВА, 31 дек — РИА Новости</strong>. Российские войска ответили на украинский теракт в Белгороде ударом по центрам принятия решений и военным объектам в Харькове, заявили в <a href=\"https://t.me/mod_russia/34190\" rel=\"nofollow noopener\">Минобороны</a>.</p>",
+      "type": "html"
+    },
+    {
+      "html": "<p>\"В ответ на данный террористический акт Вооруженными силами Российской Федерации поражены центры принятия решений и военные объекты в городе Харьков, использовавшиеся преступным киевским режимом\", — говорится в сообщении.</p>",
+      "type": "html"
+    },
+    {
+      "type": "media",
+      "medias": [
+        {
+          "id": "1919238760",
+          "etag": "2384720731",
+          "hash": "1656538988",
+          "type": "video",
+          "extra": {
+            "duration": 143,
+            "averageColor": "8893a7"
+          },
+          "hires": {
+            "width": 1920,
+            "height": 1080,
+            "mimetype": "image/jpeg",
+            "averageColor": "8893a7"
+          },
+          "title": "Минобороны об ответных ударах после обстрела Белгорода",
+          "copyright": "Министерство обороны РФ",
+          "description": "Минобороны об ответных ударах после обстрела Белгорода",
+          "issuer": "rian",
+          "sourceUrl": "https://nfw.ria.ru/flv/mediacontent.aspx?id=52998354&protocol=http&mediatype=redirect&type=flv",
+          "poster": {
+            "url": "https://mobileimg.img.ria.ru/image?etag=1753630842&id=1919238760&issuer=rian&s=fit&w=640&_sig=FPSHtV7LEkyjLH124gezXw",
+            "width": 640,
+            "height": 360,
+            "averageColor": "8893a7"
+          }
+        }
+      ]
+    },
+    {
+      "html": "<p>Так, один высокоточный ракетный удар нанесен по бывшему гостиничному комплексу \"Харьков Палас\". Там уничтожены представители ГУР и <deeplink issuer=\"rian\" project=\"ria.ru:rus\" resource-type=\"list\" list-id=\"organization_Vooruzhennye_sily_Ukrainy\" url=\"ru.ria://list?project=ria.ru%3Arus&amp;id=organization_Vooruzhennye_sily_Ukrainy&amp;url=https%3A%2F%2Fria.ru%2Forganization_Vooruzhennye_sily_Ukrainy%2F\" external-url=\"https://ria.ru/organization_Vooruzhennye_sily_Ukrainy/\"><a href=\"https://ria.ru/organization_Vooruzhennye_sily_Ukrainy/\" data-auto=\"true\">ВСУ</a></deeplink>, принимавшие непосредственное участие в планировании и исполнении атаки на Белгород, уточнили в военном ведомстве.</p>",
+      "type": "html"
+    },
+    {
+      "type": "advertisement",
+      "placement": "in-article-body"
+    },
+    {
+      "html": "<p>В этом же здании находились около 200 иностранных наемников, которые должны были участвовать в террористических рейдах на российской территории.</p>",
+      "type": "html"
+    },
+    {
+      "type": "article",
+      "article": {
+        "id": "1919168346",
+        "url": "https://ria.ru/20231230/obstrel-1919168346.html",
+        "title": "Террористический обстрел Белгорода: Россия знает, что делать с террористами",
+        "issuer": "rian",
+        "publishedAt": 1703952780,
+        "publishedAtIso8601": "2023-12-30T19:13:00+03:00",
+        "cover": {
+          "id": "1919160401",
+          "etag": "1148169048",
+          "hash": "3426888776",
+          "size": 575035,
+          "type": "image",
+          "extra": {
+            "averageColor": "354255"
+          },
+          "hires": {
+            "width": 3144,
+            "height": 2048,
+            "mimetype": "image/jpeg",
+            "averageColor": "354255"
+          },
+          "title": "Последствия удара украинских войск по центру Белгорода",
+          "copyright": "РИА Новости / Антон Вергун",
+          "description": "Последствия удара украинских войск по центру Белгорода",
+          "issuer": "rian",
+          "sourceUrl": "https://mobileimg.img.ria.ru/image?etag=3421279287&h=2048&id=1919160401&issuer=rian&s=fit&w=2048&_sig=B0F1BWFCXDHWn0xzjuTO5A",
+          "downloadUrl": "https://mobileimg.img.ria.ru/image?etag=3421279287&h=996&id=1919160401&issuer=rian&s=fit&w=996&_sig=zJueVHURqUpcpaw6bycZ4g",
+          "poster": {
+            "url": "https://mobileimg.img.ria.ru/image?etag=3421279287&id=1919160401&issuer=rian&s=fit&w=640&_sig=bd7XIFWqhWyKnwFC1rbrAg",
+            "width": 640,
+            "height": 416,
+            "averageColor": "354255"
+          }
+        }
+      }
+    },
+    {
+      "html": "<p>Еще одной целью стало здание <deeplink issuer=\"rian\" project=\"ria.ru:rus\" resource-type=\"list\" list-id=\"organization_Sluzhba_bezopasnosti_Ukrainy\" url=\"ru.ria://list?project=ria.ru%3Arus&amp;id=organization_Sluzhba_bezopasnosti_Ukrainy&amp;url=https%3A%2F%2Fria.ru%2Forganization_Sluzhba_bezopasnosti_Ukrainy%2F\" external-url=\"https://ria.ru/organization_Sluzhba_bezopasnosti_Ukrainy/\"><a href=\"https://ria.ru/organization_Sluzhba_bezopasnosti_Ukrainy/\" data-auto=\"true\">СБУ</a></deeplink> по <deeplink issuer=\"rian\" project=\"ria.ru:rus\" resource-type=\"list\" list-id=\"location_KHarkovskaja_oblast\" url=\"ru.ria://list?project=ria.ru%3Arus&amp;id=location_KHarkovskaja_oblast&amp;url=https%3A%2F%2Fria.ru%2Flocation_KHarkovskaja_oblast%2F\" external-url=\"https://ria.ru/location_KHarkovskaja_oblast/\"><a href=\"https://ria.ru/location_KHarkovskaja_oblast/\" data-auto=\"true\">Харьковской области</a></deeplink> и пункт временной дислокации националистического формирования \"<deeplink issuer=\"rian\" project=\"ria.ru:rus\" resource-type=\"list\" list-id=\"organization_Pravyjj_sektor\" url=\"ru.ria://list?project=ria.ru%3Arus&amp;id=organization_Pravyjj_sektor&amp;url=https%3A%2F%2Fria.ru%2Forganization_Pravyjj_sektor%2F\" external-url=\"https://ria.ru/organization_Pravyjj_sektor/\"><a href=\"https://ria.ru/organization_Pravyjj_sektor/\" data-auto=\"true\">Правый сектор</a></deeplink>\"*. Там ликвидированы представители руководящего состава СБУ, иностранные наемники и боевики подразделения \"Кракен\", которые непосредственно занимались подготовкой диверсий на территории России.</p>",
+      "type": "html"
+    },
+    {
+      "html": "<p>Кроме того, поражен филиал Национального центра управления космическими средствами в районе села Залесцы в <deeplink issuer=\"rian\" project=\"ria.ru:rus\" resource-type=\"list\" list-id=\"location_KHmelnickaja_oblast\" url=\"ru.ria://list?project=ria.ru%3Arus&amp;id=location_KHmelnickaja_oblast&amp;url=https%3A%2F%2Fria.ru%2Flocation_KHmelnickaja_oblast%2F\" external-url=\"https://ria.ru/location_KHmelnickaja_oblast/\"><a href=\"https://ria.ru/location_KHmelnickaja_oblast/\" data-auto=\"true\">Хмельницкой области</a></deeplink>, который ВСУ используют для ведения разведки, уничтожены базы горючего в Харькове и <deeplink issuer=\"rian\" project=\"ria.ru:rus\" resource-type=\"list\" list-id=\"location_Zaporizhzhya\" url=\"ru.ria://list?project=ria.ru%3Arus&amp;id=location_Zaporizhzhya&amp;url=https%3A%2F%2Fria.ru%2Flocation_Zaporizhzhya%2F\" external-url=\"https://ria.ru/location_Zaporizhzhya/\"><a href=\"https://ria.ru/location_Zaporizhzhya/\" data-auto=\"true\">Запорожье</a></deeplink>, с которых шло снабжение украинских группировок войск на Харьковском и Ореховском направлениях.</p>",
+      "type": "html"
+    },
+    {
+      "type": "article",
+      "article": {
+        "id": "1919204345",
+        "url": "https://ria.ru/20231231/ukraina-1919204345.html",
+        "title": "Представитель Украины в ООН заявил, что \"число смертей будет расти\"",
+        "issuer": "rian",
+        "publishedAt": 1703982300,
+        "publishedAtIso8601": "2023-12-31T03:25:00+03:00",
+        "cover": {
+          "id": "1919165617",
+          "etag": "2862567720",
+          "hash": "3593698366",
+          "size": 469469,
+          "type": "image",
+          "extra": {
+            "averageColor": "5a5855"
+          },
+          "hires": {
+            "width": 3180,
+            "height": 2048,
+            "mimetype": "image/jpeg",
+            "averageColor": "5a5855"
+          },
+          "title": "Последствия обстрела центра Белгорода ВСУ",
+          "copyright": "РИА Новости / Антон Вергун",
+          "description": "Последствия обстрела центра Белгорода ВСУ",
+          "issuer": "rian",
+          "sourceUrl": "https://mobileimg.img.ria.ru/image?etag=1381522617&h=2048&id=1919165617&issuer=rian&s=fit&w=2048&_sig=DOyXFAY0s2IPPePglRYLIA",
+          "downloadUrl": "https://mobileimg.img.ria.ru/image?etag=1381522617&h=996&id=1919165617&issuer=rian&s=fit&w=996&_sig=JB44UEyLtksSbpWYDIyZTA",
+          "poster": {
+            "url": "https://mobileimg.img.ria.ru/image?etag=1381522617&id=1919165617&issuer=rian&s=fit&w=640&_sig=v8Kk9ozQTxp-x-Zz_dG4dw",
+            "width": 640,
+            "height": 412,
+            "averageColor": "5a5855"
+          }
+        }
+      }
+    },
+    {
+      "type": "advertisement",
+      "placement": "in-article-body"
+    },
+    {
+      "html": "<p>Российские войска нанесли также ракетные удары по подразделениям 59-й мотопехотной и 79-й десантно-штурмовой бригад ВСУ, а также иностранных наемников общей численностью примерно 600 боевиков, по местам стоянки военной техники и артиллерийских систем в селах Селидово, Курахово и на территории шахты Коротченко в <deeplink issuer=\"rian\" project=\"ria.ru:rus\" resource-type=\"list\" list-id=\"location_Donetsk_People_s_Republic\" url=\"ru.ria://list?project=ria.ru%3Arus&amp;id=location_Donetsk_People_s_Republic&amp;url=https%3A%2F%2Fria.ru%2Flocation_Donetsk_People_s_Republic%2F\" external-url=\"https://ria.ru/location_Donetsk_People_s_Republic/\"><a href=\"https://ria.ru/location_Donetsk_People_s_Republic/\" data-auto=\"true\">ДНР</a></deeplink>.</p>",
+      "type": "html"
+    },
+    {
+      "type": "quote",
+      "quote": "\"В результате противник понес значительные потери. Уничтожены две пусковые установки реактивных систем залпового огня HIMARS, с помощью которых киевский режим планировал в период новогодних праздников наносить ракетные удары по Донецку\", — добавили в Минобороны, подчеркнув, что российские вооруженные силы наносят удары только по военным объектам и непосредственно связанной с ними инфраструктуре."
+    },
+    {
+      "html": "<p>Накануне днем украинские войска нанесли удар по центру Белгорода. По информации Минобороны, <deeplink issuer=\"rian\" project=\"ria.ru:rus\" resource-type=\"list\" list-id=\"organization_Vooruzhennye_sily_Ukrainy\" url=\"ru.ria://list?project=ria.ru%3Arus&amp;id=organization_Vooruzhennye_sily_Ukrainy&amp;url=https%3A%2F%2Fria.ru%2Forganization_Vooruzhennye_sily_Ukrainy%2F\" external-url=\"https://ria.ru/organization_Vooruzhennye_sily_Ukrainy/\"><a href=\"https://ria.ru/organization_Vooruzhennye_sily_Ukrainy/\">ВСУ</a></deeplink> применили ракеты \"Ольха\" с кассетной частью и чешскую РСЗО Vampire. Средства ПВО перехватили большую часть ракет, но несколько снарядов и кассетные части от сбитых ракет \"Ольха\" попали по городу.</p>",
+      "type": "html"
+    },
+    {
+      "type": "article",
+      "article": {
+        "id": "1919199783",
+        "url": "https://ria.ru/20231231/ukraina-1919199783.html",
+        "title": "В США предрекли исчезновение Украины после удара по Белгороду",
+        "issuer": "rian",
+        "publishedAt": 1703977140,
+        "publishedAtIso8601": "2023-12-31T01:59:00+03:00",
+        "cover": {
+          "id": "1797016960",
+          "etag": "3969305333",
+          "hash": "2889966493",
+          "size": 367621,
+          "type": "image",
+          "extra": {
+            "averageColor": "515d68"
+          },
+          "hires": {
+            "width": 3072,
+            "height": 2048,
+            "mimetype": "image/jpeg",
+            "averageColor": "515d68"
+          },
+          "title": "Украинский флаг в Киеве",
+          "copyright": "AP Photo / Natacha Pisarenko",
+          "description": "Украинский флаг в Киеве",
+          "issuer": "rian",
+          "sourceUrl": "https://mobileimg.img.ria.ru/image?etag=330847747&h=2048&id=1797016960&issuer=rian&s=fit&w=2048&_sig=ems9Nup2K_lrsulg6wucMA",
+          "downloadUrl": "https://mobileimg.img.ria.ru/image?etag=330847747&h=996&id=1797016960&issuer=rian&s=fit&w=996&_sig=VW6X_fo4jkJvSmQ24NPxKQ",
+          "poster": {
+            "url": "https://mobileimg.img.ria.ru/image?etag=330847747&id=1797016960&issuer=rian&s=fit&w=640&_sig=hs2srZtasi6x082o0JFQlQ",
+            "width": 640,
+            "height": 426,
+            "averageColor": "515d68"
+          }
+        }
+      }
+    },
+    {
+      "type": "advertisement",
+      "placement": "in-article-body"
+    },
+    {
+      "html": "<p>В министерстве подчеркнули, что при прямом попадании ракет с кассетными боеприпасами последствия были бы гораздо тяжелее. ВСУ совершили обстрел в попытке отвлечь внимание от поражений на фронте и спровоцировать российские войска на подобные действия, добавили в ведомстве.</p>",
+      "type": "html"
+    },
+    {
+      "html": "<p>По последним данным, жертвами теракта стали 24 человека, в том числе трое детей, более ста человек получили ранения. Следственный комитет возбудил уголовное дело по статьям \"Покушение на убийство\", \"Убийство\", \"Умышленное уничтожение или повреждение имущества\".</p>",
+      "type": "html"
+    },
+    {
+      "html": "<p><a href=\"http://editor.rian.ru/location_rossiyskaya-federatsiya/\">Россия</a> созвала <a href=\"http://editor.rian.ru/organization_OON/\">Совбез ООН</a> из-за атаки на Белгород. Российский постпред <a href=\"http://editor.rian.ru/person_Vasilijj_Nebenzja/\">Василий Небензя</a>, выступая на заседании, назвал этот удар преднамеренным актом терроризма, направленным против мирного населения, а <a href=\"http://editor.rian.ru/location_Brussels/\">Брюссель</a>, Вашингтон и <a href=\"http://editor.rian.ru/location_London_2/\">Лондон</a> — соучастниками преступлений киевского режима. Все организаторы и исполнители этой террористической атаки понесут наказание, заверил Небензя.</p>",
+      "type": "html"
+    },
+    {
+      "html": "<p><em>* Террористическая организация, запрещенная в России.</em></p>",
+      "type": "html"
+    },
+    {
+      "type": "article-photobook",
+      "article": {
+        "id": "1919152045",
+        "url": "https://ria.ru/20231230/obstrel-1919152045.html",
+        "title": "Последствия массированного обстрела Белгорода со стороны ВСУ",
+        "issuer": "rian",
+        "publishedAt": 1703947740,
+        "publishedAtIso8601": "2023-12-30T17:49:00+03:00"
+      },
+      "photobook": [
+        {
+          "id": "1919129992",
+          "etag": "634246042",
+          "hash": "2763939416",
+          "size": 146360,
+          "type": "image",
+          "extra": {
+            "averageColor": "a5978c"
+          },
+          "hires": {
+            "width": 1280,
+            "height": 960,
+            "mimetype": "image/jpeg",
+            "averageColor": "a5978c"
+          },
+          "title": "Взрывы раздались около 15:00, после чего в небе над городом появился черный дым.",
+          "copyright": "Фото очевидца",
+          "description": "Взрывы раздались около 15:00, после чего в небе над городом появился черный дым.",
+          "issuer": "rian",
+          "sourceUrl": "https://mobileimg.img.ria.ru/image?etag=2386842989&id=1919129992&issuer=rian&_sig=ZN0bDmkwj4cLtZO09d89aA",
+          "downloadUrl": "https://mobileimg.img.ria.ru/image?etag=2386842989&h=996&id=1919129992&issuer=rian&s=fit&w=996&_sig=ILpA1nKvj8TwGKdK5uIbSg",
+          "poster": {
+            "url": "https://mobileimg.img.ria.ru/image?etag=2386842989&id=1919129992&issuer=rian&s=fit&w=640&_sig=wVUN53Ao8t_CYhRrZTvBwg",
+            "width": 640,
+            "height": 480,
+            "averageColor": "a5978c"
+          }
+        },
+        {
+          "id": "1919138819",
+          "etag": "2103613280",
+          "hash": "3829424700",
+          "size": 301140,
+          "type": "image",
+          "extra": {
+            "averageColor": "8a8585"
+          },
+          "hires": {
+            "width": 2542,
+            "height": 1422,
+            "mimetype": "image/jpeg",
+            "averageColor": "8a8585"
+          },
+          "title": "Вскоре начала работать сирена, глава региона призвал жителей спуститься в укрытия. Спецслужбы перекрыли перекресток улицы Богдана Хмельницкого и проспекта Славы в центре Белгорода.",
+          "copyright": "РИА Новости",
+          "description": "Вскоре начала работать сирена, глава региона призвал жителей спуститься в укрытия. Спецслужбы перекрыли перекресток улицы Богдана Хмельницкого и проспекта Славы в центре Белгорода.",
+          "issuer": "rian",
+          "sourceUrl": "https://mobileimg.img.ria.ru/image?etag=70737773&h=2048&id=1919138819&issuer=rian&s=fit&w=2048&_sig=kPUhpwbqPbjqi21hjWZ4jQ",
+          "downloadUrl": "https://mobileimg.img.ria.ru/image?etag=70737773&h=996&id=1919138819&issuer=rian&s=fit&w=996&_sig=y2bccFXgU_PHBPUBGtfn4Q",
+          "poster": {
+            "url": "https://mobileimg.img.ria.ru/image?etag=70737773&id=1919138819&issuer=rian&s=fit&w=640&_sig=NiadiVfQ87RUt5OwGtxRXQ",
+            "width": 640,
+            "height": 358,
+            "averageColor": "8a8585"
+          }
+        },
+        {
+          "id": "1919134929",
+          "etag": "4006583258",
+          "hash": "1494359640",
+          "size": 192768,
+          "type": "image",
+          "extra": {
+            "averageColor": "7e7873"
+          },
+          "hires": {
+            "width": 961,
+            "height": 1280,
+            "mimetype": "image/jpeg",
+            "averageColor": "7e7873"
+          },
+          "title": "В результате обстрела ВСУ повреждения получили Дом правительства Белгородской области и медколледж БелГУ.",
+          "copyright": "фото очевидца",
+          "description": "В результате обстрела ВСУ повреждения получили Дом правительства Белгородской области и медколледж БелГУ.",
+          "issuer": "rian",
+          "sourceUrl": "https://mobileimg.img.ria.ru/image?etag=961285314&id=1919134929&issuer=rian&_sig=Mxk52G9k2l0HGtF8KqyJzg",
+          "downloadUrl": "https://mobileimg.img.ria.ru/image?etag=961285314&h=996&id=1919134929&issuer=rian&s=fit&w=996&_sig=Q21zG1G2YQD_Ss8_Ql-aEQ",
+          "poster": {
+            "url": "https://mobileimg.img.ria.ru/image?etag=961285314&id=1919134929&issuer=rian&s=fit&w=640&_sig=Is_G-W35a-bHMCDfmmqKqQ",
+            "width": 640,
+            "height": 852,
+            "averageColor": "7e7873"
+          }
+        },
+        {
+          "id": "1919134948",
+          "etag": "2999907162",
+          "hash": "3708795014",
+          "size": 185521,
+          "type": "image",
+          "extra": {
+            "averageColor": "848588"
+          },
+          "hires": {
+            "width": 960,
+            "height": 1280,
+            "mimetype": "image/jpeg",
+            "averageColor": "848588"
+          },
+          "title": "В городе запустили единую горячую линию по номеру \"122\" для приема заявок о повреждениях и пострадавших.",
+          "copyright": "фото очевидца",
+          "description": "В городе запустили единую горячую линию по номеру \"122\" для приема заявок о повреждениях и пострадавших.",
+          "issuer": "rian",
+          "sourceUrl": "https://mobileimg.img.ria.ru/image?etag=1452026494&id=1919134948&issuer=rian&_sig=NwL909h2HjQv9yGNs59hjw",
+          "downloadUrl": "https://mobileimg.img.ria.ru/image?etag=1452026494&h=996&id=1919134948&issuer=rian&s=fit&w=996&_sig=Smf6m9PzsgwjTHjc_cfSTA",
+          "poster": {
+            "url": "https://mobileimg.img.ria.ru/image?etag=1452026494&id=1919134948&issuer=rian&s=fit&w=640&_sig=B6bcD0fUBLnQerCh85fx6w",
+            "width": 640,
+            "height": 852,
+            "averageColor": "848588"
+          }
+        },
+        {
+          "id": "1919146348",
+          "etag": "675890135",
+          "hash": "3890092599",
+          "size": 147840,
+          "type": "image",
+          "extra": {
+            "averageColor": "7b746c"
+          },
+          "hires": {
+            "width": 1584,
+            "height": 884,
+            "mimetype": "image/jpeg",
+            "averageColor": "7b746c"
+          },
+          "title": "Очевидец обстрела рассказал, что оперативные и экстренные службы прибыли на место практически моментально.",
+          "copyright": "ГУ МЧС России по Белгородской области",
+          "description": "Очевидец обстрела рассказал, что оперативные и экстренные службы прибыли на место практически моментально.",
+          "issuer": "rian",
+          "sourceUrl": "https://mobileimg.img.ria.ru/image?etag=2376645882&id=1919146348&issuer=rian&_sig=fzn8l8HKNw_ofcBenyFmbA",
+          "downloadUrl": "https://mobileimg.img.ria.ru/image?etag=2376645882&h=996&id=1919146348&issuer=rian&s=fit&w=996&_sig=86S9z75G4vBuNfuJEtBTrQ",
+          "poster": {
+            "url": "https://mobileimg.img.ria.ru/image?etag=2376645882&id=1919146348&issuer=rian&s=fit&w=640&_sig=0-8Lrs6ZyO_A29UxwsmPuA",
+            "width": 640,
+            "height": 356,
+            "averageColor": "7b746c"
+          }
+        },
+        {
+          "id": "1919144236",
+          "etag": "2463375390",
+          "hash": "4153510019",
+          "size": 157632,
+          "type": "image",
+          "extra": {
+            "averageColor": "59728a"
+          },
+          "hires": {
+            "width": 1201,
+            "height": 527,
+            "mimetype": "image/jpeg",
+            "averageColor": "59728a"
+          },
+          "title": "Несколько машин на улице Островского полностью выгорели. Автомобили стояли на парковке возле центрального городского парка. В соседних жилых домах выбиты стекла.",
+          "copyright": "РИА Новости",
+          "description": "Несколько машин на улице Островского полностью выгорели. Автомобили стояли на парковке возле центрального городского парка. В соседних жилых домах выбиты стекла.",
+          "issuer": "rian",
+          "sourceUrl": "https://mobileimg.img.ria.ru/image?etag=3992293675&id=1919144236&issuer=rian&_sig=Y0pifxq-q8kO-DujWJzKuA",
+          "downloadUrl": "https://mobileimg.img.ria.ru/image?etag=3992293675&h=996&id=1919144236&issuer=rian&s=fit&w=996&_sig=rWcenWbGAEqOMZ_tZ-VA8g",
+          "poster": {
+            "url": "https://mobileimg.img.ria.ru/image?etag=3992293675&id=1919144236&issuer=rian&s=fit&w=640&_sig=d6qHBsZPArC7mL5GgnnSNQ",
+            "width": 640,
+            "height": 280,
+            "averageColor": "59728a"
+          }
+        },
+        {
+          "id": "1919134947",
+          "etag": "3212741010",
+          "hash": "110544315",
+          "size": 140149,
+          "type": "image",
+          "extra": {
+            "averageColor": "8e9098"
+          },
+          "hires": {
+            "width": 1572,
+            "height": 862,
+            "mimetype": "image/jpeg",
+            "averageColor": "8e9098"
+          },
+          "title": "По поручению президента Путина в Белгород вылетела бригада Минздрава во главе с министром Михаилом Мурашко. Кроме того, туда отправили группу МЧС для оказания помощи пострадавшим.",
+          "copyright": "фото очевидца",
+          "description": "По поручению президента Путина в Белгород вылетела бригада Минздрава во главе с министром Михаилом Мурашко. Кроме того, туда отправили группу МЧС для оказания помощи пострадавшим.",
+          "issuer": "rian",
+          "sourceUrl": "https://mobileimg.img.ria.ru/image?etag=3814079297&id=1919134947&issuer=rian&_sig=PShPCXlT53hfBna_sKJppg",
+          "downloadUrl": "https://mobileimg.img.ria.ru/image?etag=3814079297&h=996&id=1919134947&issuer=rian&s=fit&w=996&_sig=BjhpcA2Z8-oQIvGjnHcNyw",
+          "poster": {
+            "url": "https://mobileimg.img.ria.ru/image?etag=3814079297&id=1919134947&issuer=rian&s=fit&w=640&_sig=jeK_5jv6x8pOIQ7VUF_MmA",
+            "width": 640,
+            "height": 350,
+            "averageColor": "8e9098"
+          }
+        },
+        {
+          "id": "1919138800",
+          "etag": "3542671350",
+          "hash": "795200817",
+          "size": 252241,
+          "type": "image",
+          "extra": {
+            "averageColor": "888382"
+          },
+          "hires": {
+            "width": 2534,
+            "height": 1426,
+            "mimetype": "image/jpeg",
+            "averageColor": "888382"
+          },
+          "title": "После массированного обстрела в городе начались пожары. Поступили сообщения о десяти возгораниях, все они были ликвидированы спасателями.",
+          "copyright": "РИА Новости",
+          "description": "После массированного обстрела в городе начались пожары. Поступили сообщения о десяти возгораниях, все они были ликвидированы спасателями.",
+          "issuer": "rian",
+          "sourceUrl": "https://mobileimg.img.ria.ru/image?etag=3108319080&h=2048&id=1919138800&issuer=rian&s=fit&w=2048&_sig=lLMu-GPCsXLQK_QA4J4VrA",
+          "downloadUrl": "https://mobileimg.img.ria.ru/image?etag=3108319080&h=996&id=1919138800&issuer=rian&s=fit&w=996&_sig=OPsV-nt4viBlSQLjg6_cQw",
+          "poster": {
+            "url": "https://mobileimg.img.ria.ru/image?etag=3108319080&id=1919138800&issuer=rian&s=fit&w=640&_sig=OcjYnbuTJ9I-AVuS58Wv2Q",
+            "width": 640,
+            "height": 360,
+            "averageColor": "888382"
+          }
+        }
+      ]
+    },
+    {
+      "type": "footer"
+    },
+    {
+      "type": "rating"
+    },
+    {
+      "type": "advertisement",
+      "placement": "in-article-footer"
+    },
+    {
+      "type": "lists",
+      "subtype": "tags",
+      "lists": [
+        {
+          "issuer": "rian",
+          "id": "location_Kiev",
+          "type": "tag",
+          "group": "location",
+          "title": "Киев",
+          "url": "https://ria.ru/location_Kiev/"
+        },
+        {
+          "issuer": "rian",
+          "id": "defense_safety",
+          "type": "tag",
+          "group": "category",
+          "title": "Безопасность",
+          "url": "https://ria.ru/defense_safety/"
+        },
+        {
+          "issuer": "rian",
+          "id": "location_Kharkiv",
+          "type": "tag",
+          "group": "location",
+          "title": "Харьков",
+          "url": "https://ria.ru/location_Kharkiv/"
+        },
+        {
+          "issuer": "rian",
+          "id": "location_Belgorod",
+          "type": "tag",
+          "group": "location",
+          "title": "Белгород",
+          "url": "https://ria.ru/location_Belgorod/"
+        },
+        {
+          "issuer": "rian",
+          "id": "organization_Vooruzhennye_sily_RF",
+          "type": "tag",
+          "group": "organization",
+          "title": "Вооруженные силы РФ",
+          "url": "https://ria.ru/organization_Vooruzhennye_sily_RF/"
+        },
+        {
+          "issuer": "rian",
+          "id": "organization_Vooruzhennye_sily_Ukrainy",
+          "type": "tag",
+          "group": "organization",
+          "title": "Вооруженные силы Украины",
+          "url": "https://ria.ru/organization_Vooruzhennye_sily_Ukrainy/"
+        },
+        {
+          "issuer": "rian",
+          "id": "spetsialnaya-voennaya-operatsiya-na-ukraine",
+          "type": "supertag",
+          "title": "Специальная военная операция на Украине",
+          "url": "https://ria.ru/spetsialnaya-voennaya-operatsiya-na-ukraine/"
+        },
+        {
+          "issuer": "rian",
+          "id": "category_massirovannyy-obstrel-tsentra-belgoroda",
+          "type": "tag",
+          "group": "category",
+          "title": "Массированный обстрел центра Белгорода",
+          "url": "https://ria.ru/category_massirovannyy-obstrel-tsentra-belgoroda/"
+        }
+      ]
+    },
+    {
+      "type": "comments"
+    },
+    {
+      "type": "relap"
+    },
+    {
+      "type": "recommendations"
+    }
+  ],
+  "publishedAt": 1704012960,
+  "modifiedAt": 1704021315,
+  "lists": [
+    {
+      "id": "_feed",
+      "type": "system",
+      "url": "https://ria.ru/_feed/"
+    },
+    {
+      "id": "ria_ru",
+      "type": "supertag",
+      "group": "technical",
+      "title": "РИА Новости",
+      "subgroup": "sitedomain",
+      "articleToListType": "default",
+      "url": "https://ria.ru/ria_ru/"
+    },
+    {
+      "id": "_latest",
+      "type": "system",
+      "title": "Лента новостей",
+      "url": "https://ria.ru/_latest/"
+    },
+    {
+      "id": "archive",
+      "type": "system",
+      "title": "Лента новостей",
+      "articleToListType": "default",
+      "listToArticleIsMain": true,
+      "url": "https://ria.ru/archive/"
+    },
+    {
+      "id": "_most_viewed",
+      "type": "system",
+      "url": "https://ria.ru/_most_viewed/"
+    },
+    {
+      "id": "_sys_main2018",
+      "type": "system",
+      "title": "Main2018",
+      "url": "https://ria.ru/_sys_main2018/"
+    },
+    {
+      "id": "location_Kiev",
+      "type": "tag",
+      "group": "location",
+      "title": "Киев",
+      "subgroup": "city",
+      "articleToListType": "default",
+      "url": "https://ria.ru/location_Kiev/"
+    },
+    {
+      "id": "defense_safety",
+      "type": "tag",
+      "group": "category",
+      "title": "Безопасность",
+      "subtitle": "Безопасность",
+      "articleToListType": "default",
+      "url": "https://ria.ru/defense_safety/"
+    },
+    {
+      "id": "_most_commented",
+      "type": "system",
+      "url": "https://ria.ru/_most_commented/"
+    },
+    {
+      "id": "location_Kharkiv",
+      "type": "tag",
+      "group": "location",
+      "title": "Харьков",
+      "subgroup": "city",
+      "articleToListType": "default",
+      "url": "https://ria.ru/location_Kharkiv/"
+    },
+    {
+      "id": "location_Belgorod",
+      "type": "tag",
+      "group": "location",
+      "title": "Белгород",
+      "subgroup": "city",
+      "articleToListType": "default",
+      "url": "https://ria.ru/location_Belgorod/"
+    },
+    {
+      "id": "sys_most_commented",
+      "type": "system",
+      "title": "Обсуждаемое",
+      "url": "https://ria.ru/sys_most_commented/"
+    },
+    {
+      "id": "_sys_main2018_headline",
+      "type": "system",
+      "title": "Main2018 Headline",
+      "url": "https://ria.ru/_sys_main2018_headline/"
+    },
+    {
+      "id": "organization_Vooruzhennye_sily_RF",
+      "type": "tag",
+      "group": "organization",
+      "title": "Вооруженные силы РФ",
+      "articleToListType": "default",
+      "url": "https://ria.ru/organization_Vooruzhennye_sily_RF/"
+    },
+    {
+      "id": "organization_Vooruzhennye_sily_Ukrainy",
+      "type": "tag",
+      "group": "organization",
+      "title": "Вооруженные силы Украины",
+      "articleToListType": "default",
+      "url": "https://ria.ru/organization_Vooruzhennye_sily_Ukrainy/"
+    },
+    {
+      "id": "spetsialnaya-voennaya-operatsiya-na-ukraine",
+      "type": "supertag",
+      "title": "Специальная военная операция на Украине",
+      "announce": "Россия начала спецоперацию на Украине 24 февраля 2022 года. Владимир Путин назвал ее целью \"защиту людей, которые на протяжении восьми лет подвергаются издевательствам, геноциду со стороны киевского режима\".",
+      "description": "Россия начала спецоперацию на Украине 24 февраля 2022 года. Владимир Путин назвал ее целью \"защиту людей, которые на протяжении восьми лет подвергаются издевательствам, геноциду со стороны киевского режима\".",
+      "articleToListType": "default",
+      "url": "https://ria.ru/spetsialnaya-voennaya-operatsiya-na-ukraine/"
+    },
+    {
+      "id": "category_massirovannyy-obstrel-tsentra-belgoroda",
+      "type": "tag",
+      "group": "category",
+      "title": "Массированный обстрел центра Белгорода",
+      "articleToListType": "default",
+      "url": "https://ria.ru/category_massirovannyy-obstrel-tsentra-belgoroda/"
+    }
+  ],
+  "tags": [
+    {
+      "issuer": "rian",
+      "id": "location_Kiev",
+      "type": "tag",
+      "group": "location",
+      "title": "Киев",
+      "url": "https://ria.ru/location_Kiev/"
+    },
+    {
+      "issuer": "rian",
+      "id": "defense_safety",
+      "type": "tag",
+      "group": "category",
+      "title": "Безопасность",
+      "url": "https://ria.ru/defense_safety/"
+    },
+    {
+      "issuer": "rian",
+      "id": "location_Kharkiv",
+      "type": "tag",
+      "group": "location",
+      "title": "Харьков",
+      "url": "https://ria.ru/location_Kharkiv/"
+    },
+    {
+      "issuer": "rian",
+      "id": "location_Belgorod",
+      "type": "tag",
+      "group": "location",
+      "title": "Белгород",
+      "url": "https://ria.ru/location_Belgorod/"
+    },
+    {
+      "issuer": "rian",
+      "id": "organization_Vooruzhennye_sily_RF",
+      "type": "tag",
+      "group": "organization",
+      "title": "Вооруженные силы РФ",
+      "url": "https://ria.ru/organization_Vooruzhennye_sily_RF/"
+    },
+    {
+      "issuer": "rian",
+      "id": "organization_Vooruzhennye_sily_Ukrainy",
+      "type": "tag",
+      "group": "organization",
+      "title": "Вооруженные силы Украины",
+      "url": "https://ria.ru/organization_Vooruzhennye_sily_Ukrainy/"
+    },
+    {
+      "issuer": "rian",
+      "id": "spetsialnaya-voennaya-operatsiya-na-ukraine",
+      "type": "supertag",
+      "title": "Специальная военная операция на Украине",
+      "url": "https://ria.ru/spetsialnaya-voennaya-operatsiya-na-ukraine/"
+    },
+    {
+      "issuer": "rian",
+      "id": "category_massirovannyy-obstrel-tsentra-belgoroda",
+      "type": "tag",
+      "group": "category",
+      "title": "Массированный обстрел центра Белгорода",
+      "url": "https://ria.ru/category_massirovannyy-obstrel-tsentra-belgoroda/"
+    }
+  ],
+  "discussion": {
+    "roomId": "1919235181",
+    "isActive": true,
+    "createdAt": 1704012960,
+    "expiresIn": 69648
+  },
+  "extra": {
+    "_type": "article",
+    "stats": {
+      "views": 213336,
+      "comments": 341,
+      "reactions": [
+        {
+          "count": 5492,
+          "reaction": "like"
+        },
+        {
+          "count": 200,
+          "reaction": "dislike"
+        },
+        {
+          "count": 167,
+          "reaction": "haha"
+        },
+        {
+          "count": 100,
+          "reaction": "angry"
+        },
+        {
+          "count": 60,
+          "reaction": "wow"
+        },
+        {
+          "count": 47,
+          "reaction": "sad"
+        }
+      ]
+    },
+    "common": {
+      "url_slug": "belgorod",
+      "slug_title": "белгород"
+    },
+    "mainPage": {
+      "isFirstItemInBlock": true
+    },
+    "designType": "27",
+    "topComments": [
+      {
+        "id": "65912d95ddb5d64030f60bc8",
+        "body": "Какие нафиг центры принятия решений, что за отмазки, общие фразы.  Мин обороны должно отчитаться так: уничтожен офис Зеленского, уничтожен кабинет Залужного, Рада вместе с находящимися там лицами. ...и десяток электростанций в придачу, не выведенные из строя а уничтожены!!!",
+        "user": {
+          "id": "54d34b50fe46e1305d906b67",
+          "avatarUrl": "https://cdnn21.img.ria.ru/userpic/54d34b50fe46e1305d906b67_vkontakte.png?1450519078",
+          "displayName": "doc Ruslan  ВК"
+        },
+        "isActive": true,
+        "reactions": [
+          {
+            "count": 125,
+            "reaction": "like"
+          },
+          {
+            "count": 22,
+            "reaction": "dislike"
+          },
+          {
+            "count": 2,
+            "reaction": "angry"
+          },
+          {
+            "count": 1,
+            "reaction": "wow"
+          },
+          {
+            "count": 1,
+            "reaction": "haha"
+          }
+        ],
+        "publishedAt": 1704013205,
+        "moderationStatusId": "approved",
+        "publishedAtMicroTime": "1704013205.000000"
+      },
+      {
+        "id": "65912cd0a31c16647c01c533",
+        "body": "С Новым Годом!",
+        "user": {
+          "id": "5b7fd2d9a31c167844ea5c9e",
+          "avatarUrl": "https://cdnn21.img.ria.ru/userpic/5b7fd2d9a31c167844ea5c9e_mailru.png?1535103706",
+          "displayName": "Андрей Z"
+        },
+        "isActive": true,
+        "reactions": [
+          {
+            "count": 90,
+            "reaction": "like"
+          },
+          {
+            "count": 17,
+            "reaction": "dislike"
+          },
+          {
+            "count": 7,
+            "reaction": "sad"
+          },
+          {
+            "count": 3,
+            "reaction": "haha"
+          },
+          {
+            "count": 2,
+            "reaction": "wow"
+          }
+        ],
+        "publishedAt": 1704013008,
+        "moderationStatusId": "approved",
+        "publishedAtMicroTime": "1704013008.000000"
+      }
+    ],
+    "commentingMode": 1,
+    "articleIsNotGeo": true,
+    "articleIsNotIpad": true,
+    "articleIsLentaCommon": true,
+    "articleIsNotExported": true,
+    "articleShowVideoIcon": true,
+    "doNotShowArticleDate": "false",
+    "articleIsExportedMail": true,
+    "articleIsExportedPartners": true,
+    "articleIsNotExportedMailRu": true,
+    "articleIsExportedGoogleNews": true,
+    "articleIsExportedYandexNews": true,
+    "articleIsNotEnableGoogleIndex": true,
+    "articleIsExportedZenOrEvergreen": true,
+    "articleIsNotEnableYandexArticle": true,
+    "articleIsExportedYandexZenLentaCommon": true,
+    "isCommentingEnabled": true,
+    "isCommentingEnabled-comment": "deprecated, use \"discussion\"-object",
+    "isCommentingOpen": true,
+    "isCommentingOpen-comment": "\"isCommentingOpen\" is deprecated, use \"discussion\"-object",
+    "commentingTtl": 69648,
+    "commentingTtl-comment": "deprecated, use \"discussion\"-object",
+    "commentingExpiresAt": 1704099360,
+    "commentingExpiresAt-comment": "deprecated, use \"discussion\"-object"
+  },
+  ":serviceAttrs": {
+    "createdAt": 1704002172,
+    "updatedAt": 1704018911,
+    "articleToRequestStatus": "created",
+    "articleToRequestSortkey": "9997979899"
+  }
+}

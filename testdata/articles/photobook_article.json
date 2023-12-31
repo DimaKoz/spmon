@@ -1,0 +1,612 @@
+{
+  "id": "1919152045",
+  "issuer": "rian",
+  "type": "photobook",
+  "priority": 3,
+  "title": "Последствия массированного обстрела Белгорода со стороны ВСУ",
+  "url": "https://ria.ru/20231230/obstrel-1919152045.html",
+  "cover": {
+    "id": "1919134947",
+    "etag": "3212741010",
+    "hash": "110544315",
+    "size": 140149,
+    "type": "image",
+    "extra": {
+      "averageColor": "8e9098"
+    },
+    "hires": {
+      "width": 1572,
+      "height": 862,
+      "mimetype": "image/jpeg",
+      "averageColor": "8e9098"
+    },
+    "title": "Последствия обстрела Белгорода со стороны ВСУ",
+    "copyright": "фото очевидца",
+    "description": "Последствия обстрела Белгорода со стороны ВСУ",
+    "issuer": "rian",
+    "sourceUrl": "https://mobileimg.img.ria.ru/image?etag=3814079297&id=1919134947&issuer=rian&_sig=PShPCXlT53hfBna_sKJppg",
+    "downloadUrl": "https://mobileimg.img.ria.ru/image?etag=3814079297&h=996&id=1919134947&issuer=rian&s=fit&w=996&_sig=BjhpcA2Z8-oQIvGjnHcNyw",
+    "poster": {
+      "url": "https://mobileimg.img.ria.ru/image?etag=3814079297&id=1919134947&issuer=rian&s=fit&w=640&_sig=jeK_5jv6x8pOIQ7VUF_MmA",
+      "width": 640,
+      "height": 350,
+      "averageColor": "8e9098"
+    }
+  },
+  "body": [
+    {
+      "type": "headline",
+      "headline": {
+        "title": "Последствия массированного обстрела Белгорода со стороны ВСУ",
+        "publishedAt": 1703947740,
+        "modifiedAt": 1703954617
+      }
+    },
+    {
+      "type": "publicationDateTime",
+      "publicationDateTime": {
+        "unix": 1703947740
+      }
+    },
+    {
+      "type": "modificationDateTime",
+      "modificationDateTime": {
+        "unix": 1703954617
+      }
+    },
+    {
+      "html": "<p>Центр Белгорода днем 30 декабря подвергся обстрелу со стороны ВСУ. По данным МЧС, жертвами стали 14 человек, более ста ранены. Последствия украинской атаки — в фотоленте Ria.ru</p>",
+      "type": "html"
+    },
+    {
+      "type": "photobook",
+      "medias": [
+        {
+          "id": "1919129992",
+          "etag": "634246042",
+          "hash": "2763939416",
+          "size": 146360,
+          "type": "image",
+          "extra": {
+            "averageColor": "a5978c"
+          },
+          "hires": {
+            "width": 1280,
+            "height": 960,
+            "mimetype": "image/jpeg",
+            "averageColor": "a5978c"
+          },
+          "title": "Взрывы раздались около 15:00, после чего в небе над городом появился черный дым.",
+          "copyright": "Фото очевидца",
+          "description": "Взрывы раздались около 15:00, после чего в небе над городом появился черный дым.",
+          "issuer": "rian",
+          "sourceUrl": "https://mobileimg.img.ria.ru/image?etag=2386842989&id=1919129992&issuer=rian&_sig=ZN0bDmkwj4cLtZO09d89aA",
+          "downloadUrl": "https://mobileimg.img.ria.ru/image?etag=2386842989&h=996&id=1919129992&issuer=rian&s=fit&w=996&_sig=ILpA1nKvj8TwGKdK5uIbSg",
+          "poster": {
+            "url": "https://mobileimg.img.ria.ru/image?etag=2386842989&id=1919129992&issuer=rian&s=fit&w=640&_sig=wVUN53Ao8t_CYhRrZTvBwg",
+            "width": 640,
+            "height": 480,
+            "averageColor": "a5978c"
+          }
+        },
+        {
+          "id": "1919138819",
+          "etag": "2103613280",
+          "hash": "3829424700",
+          "size": 301140,
+          "type": "image",
+          "extra": {
+            "averageColor": "8a8585"
+          },
+          "hires": {
+            "width": 2542,
+            "height": 1422,
+            "mimetype": "image/jpeg",
+            "averageColor": "8a8585"
+          },
+          "title": "Вскоре начала работать сирена, глава региона призвал жителей спуститься в укрытия. Спецслужбы перекрыли перекресток улицы Богдана Хмельницкого и проспекта Славы в центре Белгорода.",
+          "copyright": "РИА Новости",
+          "description": "Вскоре начала работать сирена, глава региона призвал жителей спуститься в укрытия. Спецслужбы перекрыли перекресток улицы Богдана Хмельницкого и проспекта Славы в центре Белгорода.",
+          "issuer": "rian",
+          "sourceUrl": "https://mobileimg.img.ria.ru/image?etag=70737773&h=2048&id=1919138819&issuer=rian&s=fit&w=2048&_sig=kPUhpwbqPbjqi21hjWZ4jQ",
+          "downloadUrl": "https://mobileimg.img.ria.ru/image?etag=70737773&h=996&id=1919138819&issuer=rian&s=fit&w=996&_sig=y2bccFXgU_PHBPUBGtfn4Q",
+          "poster": {
+            "url": "https://mobileimg.img.ria.ru/image?etag=70737773&id=1919138819&issuer=rian&s=fit&w=640&_sig=NiadiVfQ87RUt5OwGtxRXQ",
+            "width": 640,
+            "height": 358,
+            "averageColor": "8a8585"
+          }
+        },
+        {
+          "id": "1919134929",
+          "etag": "4006583258",
+          "hash": "1494359640",
+          "size": 192768,
+          "type": "image",
+          "extra": {
+            "averageColor": "7e7873"
+          },
+          "hires": {
+            "width": 961,
+            "height": 1280,
+            "mimetype": "image/jpeg",
+            "averageColor": "7e7873"
+          },
+          "title": "В результате обстрела ВСУ повреждения получили Дом правительства Белгородской области и медколледж БелГУ.",
+          "copyright": "фото очевидца",
+          "description": "В результате обстрела ВСУ повреждения получили Дом правительства Белгородской области и медколледж БелГУ.",
+          "issuer": "rian",
+          "sourceUrl": "https://mobileimg.img.ria.ru/image?etag=961285314&id=1919134929&issuer=rian&_sig=Mxk52G9k2l0HGtF8KqyJzg",
+          "downloadUrl": "https://mobileimg.img.ria.ru/image?etag=961285314&h=996&id=1919134929&issuer=rian&s=fit&w=996&_sig=Q21zG1G2YQD_Ss8_Ql-aEQ",
+          "poster": {
+            "url": "https://mobileimg.img.ria.ru/image?etag=961285314&id=1919134929&issuer=rian&s=fit&w=640&_sig=Is_G-W35a-bHMCDfmmqKqQ",
+            "width": 640,
+            "height": 852,
+            "averageColor": "7e7873"
+          }
+        },
+        {
+          "id": "1919134948",
+          "etag": "2999907162",
+          "hash": "3708795014",
+          "size": 185521,
+          "type": "image",
+          "extra": {
+            "averageColor": "848588"
+          },
+          "hires": {
+            "width": 960,
+            "height": 1280,
+            "mimetype": "image/jpeg",
+            "averageColor": "848588"
+          },
+          "title": "В городе запустили единую горячую линию по номеру \"122\" для приема заявок о повреждениях и пострадавших.",
+          "copyright": "фото очевидца",
+          "description": "В городе запустили единую горячую линию по номеру \"122\" для приема заявок о повреждениях и пострадавших.",
+          "issuer": "rian",
+          "sourceUrl": "https://mobileimg.img.ria.ru/image?etag=1452026494&id=1919134948&issuer=rian&_sig=NwL909h2HjQv9yGNs59hjw",
+          "downloadUrl": "https://mobileimg.img.ria.ru/image?etag=1452026494&h=996&id=1919134948&issuer=rian&s=fit&w=996&_sig=Smf6m9PzsgwjTHjc_cfSTA",
+          "poster": {
+            "url": "https://mobileimg.img.ria.ru/image?etag=1452026494&id=1919134948&issuer=rian&s=fit&w=640&_sig=B6bcD0fUBLnQerCh85fx6w",
+            "width": 640,
+            "height": 852,
+            "averageColor": "848588"
+          }
+        },
+        {
+          "id": "1919146348",
+          "etag": "675890135",
+          "hash": "3890092599",
+          "size": 147840,
+          "type": "image",
+          "extra": {
+            "averageColor": "7b746c"
+          },
+          "hires": {
+            "width": 1584,
+            "height": 884,
+            "mimetype": "image/jpeg",
+            "averageColor": "7b746c"
+          },
+          "title": "Очевидец обстрела рассказал, что оперативные и экстренные службы прибыли на место практически моментально.",
+          "copyright": "ГУ МЧС России по Белгородской области",
+          "description": "Очевидец обстрела рассказал, что оперативные и экстренные службы прибыли на место практически моментально.",
+          "issuer": "rian",
+          "sourceUrl": "https://mobileimg.img.ria.ru/image?etag=2376645882&id=1919146348&issuer=rian&_sig=fzn8l8HKNw_ofcBenyFmbA",
+          "downloadUrl": "https://mobileimg.img.ria.ru/image?etag=2376645882&h=996&id=1919146348&issuer=rian&s=fit&w=996&_sig=86S9z75G4vBuNfuJEtBTrQ",
+          "poster": {
+            "url": "https://mobileimg.img.ria.ru/image?etag=2376645882&id=1919146348&issuer=rian&s=fit&w=640&_sig=0-8Lrs6ZyO_A29UxwsmPuA",
+            "width": 640,
+            "height": 356,
+            "averageColor": "7b746c"
+          }
+        },
+        {
+          "id": "1919144236",
+          "etag": "2463375390",
+          "hash": "4153510019",
+          "size": 157632,
+          "type": "image",
+          "extra": {
+            "averageColor": "59728a"
+          },
+          "hires": {
+            "width": 1201,
+            "height": 527,
+            "mimetype": "image/jpeg",
+            "averageColor": "59728a"
+          },
+          "title": "Несколько машин на улице Островского полностью выгорели. Автомобили стояли на парковке возле центрального городского парка. В соседних жилых домах выбиты стекла.",
+          "copyright": "РИА Новости",
+          "description": "Несколько машин на улице Островского полностью выгорели. Автомобили стояли на парковке возле центрального городского парка. В соседних жилых домах выбиты стекла.",
+          "issuer": "rian",
+          "sourceUrl": "https://mobileimg.img.ria.ru/image?etag=3992293675&id=1919144236&issuer=rian&_sig=Y0pifxq-q8kO-DujWJzKuA",
+          "downloadUrl": "https://mobileimg.img.ria.ru/image?etag=3992293675&h=996&id=1919144236&issuer=rian&s=fit&w=996&_sig=rWcenWbGAEqOMZ_tZ-VA8g",
+          "poster": {
+            "url": "https://mobileimg.img.ria.ru/image?etag=3992293675&id=1919144236&issuer=rian&s=fit&w=640&_sig=d6qHBsZPArC7mL5GgnnSNQ",
+            "width": 640,
+            "height": 280,
+            "averageColor": "59728a"
+          }
+        },
+        {
+          "id": "1919134947",
+          "etag": "3212741010",
+          "hash": "110544315",
+          "size": 140149,
+          "type": "image",
+          "extra": {
+            "averageColor": "8e9098"
+          },
+          "hires": {
+            "width": 1572,
+            "height": 862,
+            "mimetype": "image/jpeg",
+            "averageColor": "8e9098"
+          },
+          "title": "По поручению президента Путина в Белгород вылетела бригада Минздрава во главе с министром Михаилом Мурашко. Кроме того, туда отправили группу МЧС для оказания помощи пострадавшим.",
+          "copyright": "фото очевидца",
+          "description": "По поручению президента Путина в Белгород вылетела бригада Минздрава во главе с министром Михаилом Мурашко. Кроме того, туда отправили группу МЧС для оказания помощи пострадавшим.",
+          "issuer": "rian",
+          "sourceUrl": "https://mobileimg.img.ria.ru/image?etag=3814079297&id=1919134947&issuer=rian&_sig=PShPCXlT53hfBna_sKJppg",
+          "downloadUrl": "https://mobileimg.img.ria.ru/image?etag=3814079297&h=996&id=1919134947&issuer=rian&s=fit&w=996&_sig=BjhpcA2Z8-oQIvGjnHcNyw",
+          "poster": {
+            "url": "https://mobileimg.img.ria.ru/image?etag=3814079297&id=1919134947&issuer=rian&s=fit&w=640&_sig=jeK_5jv6x8pOIQ7VUF_MmA",
+            "width": 640,
+            "height": 350,
+            "averageColor": "8e9098"
+          }
+        },
+        {
+          "id": "1919138800",
+          "etag": "3542671350",
+          "hash": "795200817",
+          "size": 252241,
+          "type": "image",
+          "extra": {
+            "averageColor": "888382"
+          },
+          "hires": {
+            "width": 2534,
+            "height": 1426,
+            "mimetype": "image/jpeg",
+            "averageColor": "888382"
+          },
+          "title": "После массированного обстрела в городе начались пожары. Поступили сообщения о десяти возгораниях, все они были ликвидированы спасателями.",
+          "copyright": "РИА Новости",
+          "description": "После массированного обстрела в городе начались пожары. Поступили сообщения о десяти возгораниях, все они были ликвидированы спасателями.",
+          "issuer": "rian",
+          "sourceUrl": "https://mobileimg.img.ria.ru/image?etag=3108319080&h=2048&id=1919138800&issuer=rian&s=fit&w=2048&_sig=lLMu-GPCsXLQK_QA4J4VrA",
+          "downloadUrl": "https://mobileimg.img.ria.ru/image?etag=3108319080&h=996&id=1919138800&issuer=rian&s=fit&w=996&_sig=OPsV-nt4viBlSQLjg6_cQw",
+          "poster": {
+            "url": "https://mobileimg.img.ria.ru/image?etag=3108319080&id=1919138800&issuer=rian&s=fit&w=640&_sig=OcjYnbuTJ9I-AVuS58Wv2Q",
+            "width": 640,
+            "height": 360,
+            "averageColor": "888382"
+          }
+        }
+      ]
+    },
+    {
+      "type": "footer"
+    },
+    {
+      "type": "rating"
+    },
+    {
+      "type": "advertisement",
+      "placement": "in-article-footer"
+    },
+    {
+      "type": "lists",
+      "subtype": "tags",
+      "lists": [
+        {
+          "issuer": "rian",
+          "id": "incidents",
+          "type": "tag",
+          "group": "category",
+          "title": "Происшествия",
+          "url": "https://ria.ru/incidents/"
+        },
+        {
+          "issuer": "rian",
+          "id": "photolents",
+          "type": "tag",
+          "group": "category",
+          "title": "Фото",
+          "url": "https://ria.ru/photolents/"
+        },
+        {
+          "issuer": "rian",
+          "id": "location_Belgorod",
+          "type": "tag",
+          "group": "location",
+          "title": "Белгород",
+          "url": "https://ria.ru/location_Belgorod/"
+        },
+        {
+          "issuer": "rian",
+          "id": "organization_MCHS_RF",
+          "type": "tag",
+          "group": "organization",
+          "title": "МЧС России (Министерство РФ по делам гражданской обороны, чрезвычайным ситуациям и ликвидации последствий стихийных бедствий)",
+          "url": "https://ria.ru/organization_MCHS_RF/"
+        },
+        {
+          "issuer": "rian",
+          "id": "person_Mikhail_Murashko",
+          "type": "tag",
+          "group": "person",
+          "title": "Михаил Мурашко",
+          "url": "https://ria.ru/person_Mikhail_Murashko/"
+        },
+        {
+          "issuer": "rian",
+          "id": "location_Belgorodskaja_oblast",
+          "type": "tag",
+          "group": "location",
+          "title": "Белгородская область",
+          "url": "https://ria.ru/location_Belgorodskaja_oblast/"
+        },
+        {
+          "issuer": "rian",
+          "id": "organization_Vooruzhennye_sily_Ukrainy",
+          "type": "tag",
+          "group": "organization",
+          "title": "Вооруженные силы Украины",
+          "url": "https://ria.ru/organization_Vooruzhennye_sily_Ukrainy/"
+        },
+        {
+          "issuer": "rian",
+          "id": "category_massirovannyy-obstrel-tsentra-belgoroda",
+          "type": "tag",
+          "group": "category",
+          "title": "Массированный обстрел центра Белгорода",
+          "url": "https://ria.ru/category_massirovannyy-obstrel-tsentra-belgoroda/"
+        }
+      ]
+    },
+    {
+      "type": "comments"
+    },
+    {
+      "type": "relap"
+    },
+    {
+      "type": "recommendations"
+    }
+  ],
+  "publishedAt": 1703947740,
+  "modifiedAt": 1703954617,
+  "lists": [
+    {
+      "id": "ria_ru",
+      "type": "supertag",
+      "group": "technical",
+      "title": "РИА Новости",
+      "subgroup": "sitedomain",
+      "articleToListType": "default",
+      "url": "https://ria.ru/ria_ru/"
+    },
+    {
+      "id": "archive",
+      "type": "system",
+      "title": "Лента новостей",
+      "articleToListType": "default",
+      "listToArticleIsMain": true,
+      "url": "https://ria.ru/archive/"
+    },
+    {
+      "id": "incidents",
+      "type": "tag",
+      "group": "category",
+      "title": "Происшествия",
+      "subtitle": "Происшествия",
+      "articleToListType": "default",
+      "url": "https://ria.ru/incidents/"
+    },
+    {
+      "id": "photolents",
+      "type": "tag",
+      "group": "category",
+      "title": "Фото",
+      "subtitle": "Фото",
+      "articleToListType": "default",
+      "url": "https://ria.ru/photolents/"
+    },
+    {
+      "id": "location_Belgorod",
+      "type": "tag",
+      "group": "location",
+      "title": "Белгород",
+      "subgroup": "city",
+      "articleToListType": "default",
+      "url": "https://ria.ru/location_Belgorod/"
+    },
+    {
+      "id": "organization_MCHS_RF",
+      "type": "tag",
+      "group": "organization",
+      "title": "МЧС России (Министерство РФ по делам гражданской обороны, чрезвычайным ситуациям и ликвидации последствий стихийных бедствий)",
+      "articleToListType": "default",
+      "url": "https://ria.ru/organization_MCHS_RF/"
+    },
+    {
+      "id": "technical_type_photo",
+      "type": "tag",
+      "group": "technical",
+      "title": "Фото",
+      "subgroup": "type",
+      "articleToListType": "default",
+      "url": "https://ria.ru/technical_type_photo/"
+    },
+    {
+      "id": "person_Mikhail_Murashko",
+      "type": "tag",
+      "group": "person",
+      "title": "Михаил Мурашко",
+      "articleToListType": "default",
+      "url": "https://ria.ru/person_Mikhail_Murashko/"
+    },
+    {
+      "id": "location_Belgorodskaja_oblast",
+      "type": "tag",
+      "group": "location",
+      "title": "Белгородская область",
+      "subgroup": "oblast",
+      "articleToListType": "default",
+      "url": "https://ria.ru/location_Belgorodskaja_oblast/"
+    },
+    {
+      "id": "organization_Vooruzhennye_sily_Ukrainy",
+      "type": "tag",
+      "group": "organization",
+      "title": "Вооруженные силы Украины",
+      "articleToListType": "default",
+      "url": "https://ria.ru/organization_Vooruzhennye_sily_Ukrainy/"
+    },
+    {
+      "id": "category_massirovannyy-obstrel-tsentra-belgoroda",
+      "type": "tag",
+      "group": "category",
+      "title": "Массированный обстрел центра Белгорода",
+      "articleToListType": "default",
+      "url": "https://ria.ru/category_massirovannyy-obstrel-tsentra-belgoroda/"
+    }
+  ],
+  "tags": [
+    {
+      "issuer": "rian",
+      "id": "incidents",
+      "type": "tag",
+      "group": "category",
+      "title": "Происшествия",
+      "url": "https://ria.ru/incidents/"
+    },
+    {
+      "issuer": "rian",
+      "id": "photolents",
+      "type": "tag",
+      "group": "category",
+      "title": "Фото",
+      "url": "https://ria.ru/photolents/"
+    },
+    {
+      "issuer": "rian",
+      "id": "location_Belgorod",
+      "type": "tag",
+      "group": "location",
+      "title": "Белгород",
+      "url": "https://ria.ru/location_Belgorod/"
+    },
+    {
+      "issuer": "rian",
+      "id": "organization_MCHS_RF",
+      "type": "tag",
+      "group": "organization",
+      "title": "МЧС России (Министерство РФ по делам гражданской обороны, чрезвычайным ситуациям и ликвидации последствий стихийных бедствий)",
+      "url": "https://ria.ru/organization_MCHS_RF/"
+    },
+    {
+      "issuer": "rian",
+      "id": "person_Mikhail_Murashko",
+      "type": "tag",
+      "group": "person",
+      "title": "Михаил Мурашко",
+      "url": "https://ria.ru/person_Mikhail_Murashko/"
+    },
+    {
+      "issuer": "rian",
+      "id": "location_Belgorodskaja_oblast",
+      "type": "tag",
+      "group": "location",
+      "title": "Белгородская область",
+      "url": "https://ria.ru/location_Belgorodskaja_oblast/"
+    },
+    {
+      "issuer": "rian",
+      "id": "organization_Vooruzhennye_sily_Ukrainy",
+      "type": "tag",
+      "group": "organization",
+      "title": "Вооруженные силы Украины",
+      "url": "https://ria.ru/organization_Vooruzhennye_sily_Ukrainy/"
+    },
+    {
+      "issuer": "rian",
+      "id": "category_massirovannyy-obstrel-tsentra-belgoroda",
+      "type": "tag",
+      "group": "category",
+      "title": "Массированный обстрел центра Белгорода",
+      "url": "https://ria.ru/category_massirovannyy-obstrel-tsentra-belgoroda/"
+    }
+  ],
+  "discussion": {
+    "roomId": "1919152045",
+    "isActive": true,
+    "createdAt": 1703947740,
+    "expiresIn": 3960
+  },
+  "extra": {
+    "_type": "photo",
+    "stats": {
+      "reactions": [
+        {
+          "count": 133,
+          "reaction": "angry"
+        },
+        {
+          "count": 9,
+          "reaction": "dislike"
+        },
+        {
+          "count": 7,
+          "reaction": "sad"
+        },
+        {
+          "count": 5,
+          "reaction": "like"
+        },
+        {
+          "count": 3,
+          "reaction": "haha"
+        },
+        {
+          "reaction": "wow"
+        }
+      ]
+    },
+    "common": {
+      "url_slug": "obstrel",
+      "slug_title": "обстрел"
+    },
+    "designType": "27",
+    "photobookSize": 8,
+    "commentingMode": 1,
+    "articleIsNotGeo": true,
+    "articleIsNotIpad": true,
+    "articleIsNotLenta": true,
+    "articleIsNotExported": true,
+    "doNotShowArticleDate": "false",
+    "articleIsNotInfoscreen": true,
+    "articleIsExportedPartners": true,
+    "articleIsNotMediaAnnounce": true,
+    "articleIsNotExportedMailRu": true,
+    "articleIsNotExportedRambler": true,
+    "articleIsNotEnableGoogleIndex": true,
+    "articleIsNotEnableYandexArticle": true,
+    "isCommentingEnabled": true,
+    "isCommentingEnabled-comment": "deprecated, use \"discussion\"-object",
+    "isCommentingOpen": true,
+    "isCommentingOpen-comment": "\"isCommentingOpen\" is deprecated, use \"discussion\"-object",
+    "commentingTtl": 3960,
+    "commentingTtl-comment": "deprecated, use \"discussion\"-object",
+    "commentingExpiresAt": 1704034140,
+    "commentingExpiresAt-comment": "deprecated, use \"discussion\"-object"
+  },
+  ":serviceAttrs": {
+    "createdAt": 1703936996,
+    "updatedAt": 1703988324,
+    "articleToRequestStatus": "created"
+  }
+}
