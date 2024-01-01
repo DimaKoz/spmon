@@ -109,3 +109,17 @@ type Article struct {
 	Tags        []List      `json:"tags,omitempty"`
 	Authors     []Author    `json:"authors,omitempty"`
 }
+
+func (article Article) GetArticlesCover() []Cover {
+	result := make([]Cover, 0)
+	if article.Cover.hasID() {
+		result = append(result, article.Cover)
+	}
+	for _, ref := range article.References {
+		if ref.Cover.hasID() {
+			result = append(result, ref.Cover)
+		}
+	}
+
+	return result
+}

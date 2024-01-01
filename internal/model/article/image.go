@@ -30,3 +30,7 @@ type Cover struct {
 	Poster      Poster `json:"poster"`
 	ArticleID   string
 }
+
+func (cover Cover) hasID() bool {
+	return cover.ID != ""
+}
