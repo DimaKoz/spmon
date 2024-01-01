@@ -14,7 +14,7 @@ type Hires struct {
 	AverageColor string `json:"averageColor"`
 }
 
-type Cover struct {
+type Media struct {
 	ID          string `json:"id"`
 	Etag        string `json:"etag"`
 	Hash        string `json:"hash"`
@@ -31,6 +31,6 @@ type Cover struct {
 	ArticleID   string
 }
 
-func (cover Cover) hasID() bool {
-	return cover.ID != ""
+func (media Media) hasID() bool {
+	return media.ID != ""
 }
