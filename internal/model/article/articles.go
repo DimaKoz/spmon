@@ -124,6 +124,22 @@ type Article struct {
 	Authors     []Author    `json:"authors,omitempty"`
 }
 
+func (headline Headline) GetMedia() []Media {
+	result := make([]Media, 0)
+
+	if headline.Cover.hasID() {
+		result = append(result, headline.Cover)
+	}
+
+	for _, author := range headline.Authors {
+		if author.Avatar.hasID() {
+			result = append(result, author.Avatar)
+		}
+	}
+
+	return result
+}
+
 func (article Article) GetArticlesMedia() []Media {
 	result := make([]Media, 0)
 	if article.Cover.hasID() {
