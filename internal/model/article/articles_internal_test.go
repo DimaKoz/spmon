@@ -33,7 +33,7 @@ func TestHeadlineGetMedia(t *testing.T) {
 	for _, tCase := range tests {
 		tUnit := tCase
 		t.Run(tUnit.name, func(t *testing.T) {
-			got := tUnit.headline.GetMedia()
+			got := tUnit.headline.getMedia()
 			assert.Equal(t, tUnit.want, got)
 		})
 	}

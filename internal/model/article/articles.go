@@ -124,7 +124,7 @@ type Article struct {
 	Authors     []Author    `json:"authors,omitempty"`
 }
 
-func (headline Headline) GetMedia() []Media {
+func (headline Headline) getMedia() []Media {
 	result := make([]Media, 0)
 
 	if headline.Cover.hasID() {
@@ -135,6 +135,53 @@ func (headline Headline) GetMedia() []Media {
 		if author.Avatar.hasID() {
 			result = append(result, author.Avatar)
 		}
+	}
+
+	return result
+}
+
+func getMedia(medias []Media) []Media {
+	result := make([]Media, 0)
+
+	for _, media := range medias {
+		if media.hasID() {
+			result = append(result, media)
+		}
+	}
+
+	return result
+}
+
+func (body Body) GetMedia() []Media {
+	result := make([]Media, 0)
+
+	if hMedia := body.Headline.getMedia(); len(hMedia) > 0 {
+		result = append(result, hMedia...)
+	}
+
+	for _, author := range body.Authors {
+		if author.Avatar.hasID() {
+			result = append(result, author.Avatar)
+		}
+	}
+
+	if media := getMedia(body.Medias); len(media) > 0 {
+		result = append(result, media...)
+	}
+
+	if body.Article.Cover.hasID() {
+		body.Article.Cover.ArticleID = body.Article.ID
+		result = append(result, body.Article.Cover)
+	}
+
+	for _, ref := range body.References {
+		if ref.Cover.hasID() {
+			result = append(result, ref.Cover)
+		}
+	}
+
+	if photobook := getMedia(body.Photobook); len(photobook) > 0 {
+		result = append(result, photobook...)
 	}
 
 	return result
