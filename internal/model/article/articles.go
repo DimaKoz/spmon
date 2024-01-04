@@ -152,7 +152,7 @@ func getMedia(medias []Media) []Media {
 	return result
 }
 
-func (body Body) GetMedia() []Media {
+func (body Body) getMedia() []Media {
 	result := make([]Media, 0)
 
 	if hMedia := body.Headline.getMedia(); len(hMedia) > 0 {

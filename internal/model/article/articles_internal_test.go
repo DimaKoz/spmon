@@ -10,6 +10,10 @@ import (
 var (
 	testMedia0    = Media{ID: "some_id"}
 	testMedia1    = Media{ID: "some_id_1"}
+	testMedia2    = Media{ID: "some_id_2"}
+	testMedia3    = Media{ID: "some_id_3"}
+	testMedia4    = Media{ID: "some_id_4"}
+	testMedia5    = Media{ID: "some_id_5"}
 	testMediaNoID = Media{}
 )
 
@@ -59,6 +63,49 @@ func TestGetMediaFromSliceMedia(t *testing.T) {
 		tUnit := tCase
 		t.Run(tUnit.name, func(t *testing.T) {
 			assert.Equal(t, tUnit.want, getMedia(tUnit.media), "getMedia(%v)", tUnit.media)
+		})
+	}
+}
+
+//nolint:exhaustruct
+func TestBodyGetMedia(t *testing.T) {
+	body := Body{
+		Headline: Headline{
+			Cover:   testMedia0,
+			Authors: []Author{{Avatar: testMedia1}},
+		},
+		Authors:    []Author{{Avatar: testMedia1}},
+		Medias:     []Media{testMedia2, testMediaNoID},
+		Article:    MentionedArticle{ID: "MentionedArticle0", URL: "http://example.com", Cover: testMedia3},
+		References: []Reference{{ID: "Reference0", URL: "http://example.com", Cover: testMedia4}},
+		Photobook:  []Media{testMedia5, testMediaNoID, testMedia3},
+	}
+
+	tests := []struct {
+		name string
+		body Body
+		want []Media
+	}{
+		{
+			name: "body with media",
+			body: body,
+			want: []Media{
+				testMedia0,
+				testMedia1,
+				testMedia1,
+				testMedia2,
+				{ID: "some_id_3", ArticleID: "MentionedArticle0"},
+				testMedia4,
+				testMedia5,
+				testMedia3,
+			},
+		},
+	}
+	for _, tCase := range tests {
+		tUnit := tCase
+		t.Run(tUnit.name, func(t *testing.T) {
+			got := tUnit.body.getMedia()
+			assert.Equal(t, tUnit.want, got)
 		})
 	}
 }
