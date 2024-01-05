@@ -109,3 +109,52 @@ func TestBodyGetMedia(t *testing.T) {
 		})
 	}
 }
+
+//nolint:exhaustruct
+func TestFillArticleID(t *testing.T) {
+	tests := []struct {
+		name    string
+		article Article
+		media   []Media
+		want    []Media
+	}{
+		{
+			name:    "with id and without",
+			article: Article{ID: "articleId0"},
+			media: []Media{
+				{ID: "test0"},
+				{ID: "test1", ArticleID: "articleId1"},
+				{ID: "test2"},
+				{ID: "test3"},
+				{ID: "test4"},
+				{ID: "test5"},
+				{ID: "test6"},
+				{ID: "test7"},
+				{ID: "test8"},
+				{ID: "test9"},
+				{ID: "test10"},
+			},
+			want: []Media{
+				{ID: "test0", ArticleID: "articleId0"},
+				{ID: "test1", ArticleID: "articleId1"},
+				{ID: "test2", ArticleID: "articleId0"},
+				{ID: "test3", ArticleID: "articleId0"},
+				{ID: "test4", ArticleID: "articleId0"},
+				{ID: "test5", ArticleID: "articleId0"},
+				{ID: "test6", ArticleID: "articleId0"},
+				{ID: "test7", ArticleID: "articleId0"},
+				{ID: "test8", ArticleID: "articleId0"},
+				{ID: "test9", ArticleID: "articleId0"},
+				{ID: "test10", ArticleID: "articleId0"},
+			},
+		},
+	}
+
+	for _, tCase := range tests {
+		tUnit := tCase
+		t.Run(tUnit.name, func(t *testing.T) {
+			fillArticleID(tUnit.article, tUnit.media)
+			assert.Equal(t, tUnit.want, tUnit.media)
+		})
+	}
+}

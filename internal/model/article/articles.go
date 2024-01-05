@@ -192,11 +192,34 @@ func (article Article) GetArticlesMedia() []Media {
 	if article.Cover.hasID() {
 		result = append(result, article.Cover)
 	}
+
+	for _, body := range article.Body {
+		if media := body.getMedia(); len(media) > 0 {
+			result = append(result, media...)
+		}
+	}
+
 	for _, ref := range article.References {
 		if ref.Cover.hasID() {
 			result = append(result, ref.Cover)
 		}
 	}
 
+	for _, author := range article.Authors {
+		if author.Avatar.hasID() {
+			result = append(result, author.Avatar)
+		}
+	}
+
+	fillArticleID(article, result)
+
 	return result
+}
+
+func fillArticleID(article Article, media []Media) {
+	for i := 0; i < len(media); i++ {
+		if media[i].ArticleID == "" {
+			media[i].ArticleID = article.ID
+		}
+	}
 }
