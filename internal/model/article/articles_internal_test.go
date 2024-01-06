@@ -15,6 +15,18 @@ var (
 	testMedia4    = Media{ID: "some_id_4"}
 	testMedia5    = Media{ID: "some_id_5"}
 	testMediaNoID = Media{}
+
+	testBody = Body{
+		Headline: Headline{
+			Cover:   testMedia0,
+			Authors: []Author{{Avatar: testMedia1}},
+		},
+		Authors:    []Author{{Avatar: testMedia1}},
+		Medias:     []Media{testMedia2, testMediaNoID},
+		Article:    MentionedArticle{ID: "MentionedArticle0", URL: "http://example.com", Cover: testMedia3},
+		References: []Reference{{ID: "Reference0", URL: "http://example.com", Cover: testMedia4}},
+		Photobook:  []Media{testMedia5, testMediaNoID, testMedia3},
+	}
 )
 
 //nolint:exhaustruct
@@ -69,7 +81,7 @@ func TestGetMediaFromSliceMedia(t *testing.T) {
 
 //nolint:exhaustruct
 func TestBodyGetMedia(t *testing.T) {
-	body := Body{
+	/*body := Body{
 		Headline: Headline{
 			Cover:   testMedia0,
 			Authors: []Author{{Avatar: testMedia1}},
@@ -79,7 +91,7 @@ func TestBodyGetMedia(t *testing.T) {
 		Article:    MentionedArticle{ID: "MentionedArticle0", URL: "http://example.com", Cover: testMedia3},
 		References: []Reference{{ID: "Reference0", URL: "http://example.com", Cover: testMedia4}},
 		Photobook:  []Media{testMedia5, testMediaNoID, testMedia3},
-	}
+	}*/
 
 	tests := []struct {
 		name string
@@ -88,7 +100,7 @@ func TestBodyGetMedia(t *testing.T) {
 	}{
 		{
 			name: "body with media",
-			body: body,
+			body: testBody,
 			want: []Media{
 				testMedia0,
 				testMedia1,
@@ -155,6 +167,66 @@ func TestFillArticleID(t *testing.T) {
 		t.Run(tUnit.name, func(t *testing.T) {
 			fillArticleID(tUnit.article, tUnit.media)
 			assert.Equal(t, tUnit.want, tUnit.media)
+		})
+	}
+}
+
+//nolint:exhaustruct
+func TestArticleGetMedia(t *testing.T) {
+	testCoverAndBody := Article{
+		ID:    "testArticleId0",
+		Cover: testMedia5,
+		Body:  []Body{testBody},
+	}
+
+	wantArticleCoverAndBody := []Media{
+		{ID: testMedia5.ID, ArticleID: testCoverAndBody.ID},
+		{ID: testMedia0.ID, ArticleID: testCoverAndBody.ID},
+		{ID: testMedia1.ID, ArticleID: testCoverAndBody.ID},
+		{ID: testMedia1.ID, ArticleID: testCoverAndBody.ID},
+		{ID: testMedia2.ID, ArticleID: testCoverAndBody.ID},
+		{ID: "some_id_3", ArticleID: "MentionedArticle0"},
+		{ID: testMedia4.ID, ArticleID: testCoverAndBody.ID},
+		{ID: testMedia5.ID, ArticleID: testCoverAndBody.ID},
+		{ID: testMedia3.ID, ArticleID: testCoverAndBody.ID},
+	}
+
+	testReferences := Article{ID: "testArticleId1", References: []Reference{{Cover: testMedia0}}}
+
+	wantReferences := []Media{{ID: testMedia0.ID, ArticleID: testReferences.ID}}
+
+	testAuthors := Article{ID: "testArticleId2", Authors: []Author{{Avatar: testMedia1}}}
+
+	wantAuthors := []Media{{ID: testMedia1.ID, ArticleID: testAuthors.ID}}
+
+	tests := []struct {
+		name    string
+		article Article
+
+		want []Media
+	}{
+		{
+			name:    "body with media",
+			article: testCoverAndBody,
+			want:    wantArticleCoverAndBody,
+		},
+		{
+			name:    "get media from references",
+			article: testReferences,
+			want:    wantReferences,
+		},
+		{
+			name:    "get media from authors",
+			article: testAuthors,
+			want:    wantAuthors,
+		},
+	}
+
+	for _, tCase := range tests {
+		tUnit := tCase
+		t.Run(tUnit.name, func(t *testing.T) {
+			got := tUnit.article.getMedia()
+			assert.Equal(t, tUnit.want, got)
 		})
 	}
 }

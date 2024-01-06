@@ -187,7 +187,7 @@ func (body Body) getMedia() []Media {
 	return result
 }
 
-func (article Article) GetArticlesMedia() []Media {
+func (article Article) getMedia() []Media {
 	result := make([]Media, 0)
 	if article.Cover.hasID() {
 		result = append(result, article.Cover)
