@@ -1,8 +1,6 @@
 package repository
 
 import (
-	"errors"
-	"fmt"
 	"sync"
 
 	"github.com/DimaKoz/spmon/internal/model"
@@ -18,14 +16,6 @@ var (
 // HsStorage represents storage of model.Handshake.
 type HsStorage struct {
 	storage map[string]model.Handshake
-}
-
-// errRepo an error of repository.
-var errRepo = errors.New("couldn't find Handshake")
-
-// repositoryError wraps error with msg and returns wrapped error.
-func repositoryError(err error, msg string) error {
-	return fmt.Errorf("%w: %s", err, msg)
 }
 
 // AddHs adds model.Handshake to 'hsStorage' storage.
@@ -53,5 +43,5 @@ func GetHs(key string) (*model.Handshake, error) {
 		return &found, nil
 	}
 
-	return nil, repositoryError(errRepo, key)
+	return nil, repositoryError(errNoHsRepo, key)
 }
