@@ -4,6 +4,7 @@ import (
 	"sync"
 
 	"github.com/DimaKoz/spmon/internal/model"
+	"golang.org/x/exp/maps"
 )
 
 var (
@@ -45,4 +46,19 @@ func GetCheckUnit(key string) (*model.CheckUnit, error) {
 	}
 
 	return nil, repositoryError(errNoChkUnitRepo, key)
+}
+
+// ClearUnitStorage clear the storage.
+func ClearUnitStorage() {
+	chkUnitStorageSync.Lock()
+	defer chkUnitStorageSync.Unlock()
+	maps.Clear(chkUnitStorage.storage)
+}
+
+// GetAllChkUnits gets all the items from the storage.
+func GetAllChkUnits() []model.CheckUnit {
+	chkUnitStorageSync.Lock()
+	defer chkUnitStorageSync.Unlock()
+
+	return maps.Values(chkUnitStorage.storage)
 }

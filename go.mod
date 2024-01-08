@@ -2,7 +2,10 @@ module github.com/DimaKoz/spmon
 
 go 1.21.4
 
-require github.com/stretchr/testify v1.8.4
+require (
+	github.com/stretchr/testify v1.8.4
+	golang.org/x/exp v0.0.0-20240103183307-be819d1f06fc
+)
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
