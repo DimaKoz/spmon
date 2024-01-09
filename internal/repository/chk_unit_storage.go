@@ -19,7 +19,8 @@ type ChkUnitStorage struct {
 	storage map[string]model.CheckUnit
 }
 
-// AddCheckUnit adds model.CheckUnit to 'repository.ChkUnitStorage' storage.
+// AddCheckUnit adds model.CheckUnit to 'repository.ChkUnitStorage' storage
+// by 'model.CheckUnit.URL' as a key.
 func AddCheckUnit(key string, chkUnit *model.CheckUnit) {
 	chkUnitStorageSync.Lock()
 	defer chkUnitStorageSync.Unlock()

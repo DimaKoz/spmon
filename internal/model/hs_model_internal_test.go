@@ -6,14 +6,14 @@ import (
 	"os"
 	"testing"
 
-	"github.com/DimaKoz/spmon/internal"
+	"github.com/DimaKoz/spmon/internal/utils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
 
 //nolint:exhaustruct
 func TestHandshakeGetArticleBlocks(t *testing.T) {
-	wDir := internal.GetWD()
+	wDir := utils.GetWD()
 	filePath := fmt.Sprintf("%s/%s", wDir, "testdata/hs/hs_sputnik_intl_en.json")
 	file, err := os.ReadFile(filePath)
 

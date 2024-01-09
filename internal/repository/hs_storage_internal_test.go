@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/DimaKoz/spmon/internal"
 	"github.com/DimaKoz/spmon/internal/model"
+	"github.com/DimaKoz/spmon/internal/utils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -18,7 +18,7 @@ func TestAddGetHs(t *testing.T) {
 		hs  *model.Handshake
 	}
 	expectedTimestamp := 1703246443
-	wDir := internal.GetWD()
+	wDir := utils.GetWD()
 	filePath := fmt.Sprintf("%s/%s", wDir, "testdata/hs/hs_sputnik_intl_en.json")
 	file, err := os.ReadFile(filePath)
 	// println("use test file:", filePath, ", ", file)

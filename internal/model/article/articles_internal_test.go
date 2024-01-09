@@ -225,7 +225,7 @@ func TestArticleGetMedia(t *testing.T) {
 	for _, tCase := range tests {
 		tUnit := tCase
 		t.Run(tUnit.name, func(t *testing.T) {
-			got := tUnit.article.getMedia()
+			got := tUnit.article.GetMedia1()
 			assert.Equal(t, tUnit.want, got)
 		})
 	}
